@@ -58,30 +58,30 @@ relativeURLs = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "poppy"
+  theme = ""
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = "ktuyen-hex" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
   customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customheadingFontFamily = "Petrona"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  headingFontFamily = "athelas"
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "apreshill/apero"
+    repo_name = "ktuyends/ktuyenx"
     issue_term = "title" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
@@ -172,21 +172,21 @@ relativeURLs = true
     
   # Configure footer  
   [[menu.footer]]
-    name = "License"
-    title = "License Details"
-    url = "/license/"
-    weight = 1
-  [[menu.footer]]
     name = "Contact"
     title = "Contact Form"
     url = "/contact/"
+    weight = 1
+  [[menu.footer]]
+    name = "License"
+    title = "License Details"
+    url = "/license/"
     weight = 2
   [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
+    name = "RSS"
+    title = "Subscribe via RSS"
+    url = "/blog/index.xml/"
     weight = 3
-
+    
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
   [privacy.disqus]
