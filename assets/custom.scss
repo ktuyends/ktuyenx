@@ -142,7 +142,7 @@ nav#TableOfContents ul li {
 // links 
 
 a {
-  text-decoration-thickness: 1.5px;
+  text-decoration: none;
 }
 
 a:hover {
@@ -211,7 +211,7 @@ p, summary {
 ul, ol {
   font-size: 1.1rem;
   > li > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   ul, ol {
     li {
