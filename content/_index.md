@@ -2,11 +2,12 @@
 title: "Tuyen Kieu"
 subtitle: "Fresher Data Analyst / Business Intelligence Analyst"
 description: "I am a researcher, community organizer, and R educator. My research leverages electronic health record data to study pregnancy-related outcomes, and  my organizing values data literacy as a way to build power and effect change."
+sharing_image: "/img/silvia-social.png"
 images:
   - img/skyline.png
 image_left: false
 text_align_left: false
-show_social_links: true # specify social accounts in site config
+show_social_links: true
 show_action_link: true
 action_link: /about
 action_label: "More about me &rarr;"
