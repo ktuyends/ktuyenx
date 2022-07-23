@@ -2,8 +2,8 @@
 title: "About"
 description: |
   Sometimes I write something just so that I can go back and read it.
-show_header: true
-sidebar_left: false
+show_header: false
+sidebar_left: true
 # Keep this! Do not edit.
 cascade:
   headless: true

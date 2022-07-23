@@ -1,9 +1,10 @@
 ---
-title: 'Philly Center City District Sips 2022: An Interactive Map'
+title: "Philly Center City District Sips 2022: An Interactive Map"
 layout: single-sidebar
-date: '2022-05-31'
-publishDate: '2022-05-31'
-lastUpdated: '2022-06-01'
+sidebar_left: true
+date: "2022-05-31"
+publishDate: "2022-05-31"
+lastUpdated: "2022-06-01"
 slug: ccd-sips
 categories:
   - R
@@ -16,18 +17,16 @@ tags:
   - rvest
   - leaflet
   - ggmap
-subtitle: 'An interactive map showing restaurants participating in CCD Sips 2022 & a companion R tutorial on webscraping, geocoding, and map-making'
-summary: 'An interactive map showing restaurants participating in CCD Sips 2022 & a companion R tutorial on webscraping, geocoding, and map-making'
+subtitle: "An interactive map showing restaurants participating in CCD Sips 2022 & a companion R tutorial on webscraping, geocoding, and map-making"
+summary: "An interactive map showing restaurants participating in CCD Sips 2022 & a companion R tutorial on webscraping, geocoding, and map-making"
 featured: yes
 links:
-- icon: map-marked-alt
-  icon_pack: fas
-  name: Interactive Map
-  url: http://tiny.cc/ccdsips2022
+  - icon: map-marked-alt
+    icon_pack: fas
+    name: Interactive Map
+    url: http://tiny.cc/ccdsips2022
 format: hugo
 ---
-
-
 
 <script src="index_files/libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <script src="index_files/libs/jquery-1.12.4/jquery.min.js"></script>
@@ -45,7 +44,6 @@ format: hugo
 <link href="index_files/libs/fontawesome-4.7.0/font-awesome.min.css" rel="stylesheet" />
 <link href="index_files/libs/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.css" rel="stylesheet" />
 <script src="index_files/libs/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.js"></script>
-
 
 Philly's Center City District posted a list of restaurants and bars
 participating in Philly's 2022 [CCD
@@ -82,7 +80,7 @@ Aside from the `tidyverse` and `here` packages, I used a handful of R
 packages to bring this map project together.
 
 | Package          | Purpose                                   | Version |
-|------------------|-------------------------------------------|---------|
+| ---------------- | ----------------------------------------- | ------- |
 | `robotstxt`      | Check website for scraping permissions    | 0.7.13  |
 | `rvest`          | Scrape the information off of the website | 1.0.1   |
 | `ggmap`          | Geocode the restaurant addresses          | 3.0.0   |
@@ -101,7 +99,7 @@ What I wanted to look for was whether any pages are not allowed to be
 crawled by bots/scrapers. In my case there weren't any, indicated by
 `Allow: /`.
 
-``` r
+```r
 get_robotstxt("https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view")
 ```
 
@@ -110,32 +108,26 @@ get_robotstxt("https://centercityphila.org/explore-center-city/ccd-sips/sips-lis
 Output
 </summary>
 
-``` md
-[robots.txt]
---------------------------------------
+```md
+## [robots.txt]
 
 # robots.txt overwrite by: on_suspect_content
 
-User-agent: *
+User-agent: \*
 Allow: /
 
+## [events]
 
-
-[events]
---------------------------------------
-
-requested:   https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view/robots.txt 
-downloaded:  https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view/robots.txt 
+requested: https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view/robots.txt
+downloaded: https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view/robots.txt
 
 $on_not_found
 $on_not_found$status_code
 [1] 404
 
-
 $on_file_type_mismatch
 $on_file_type_mismatch$content_type
 [1] "text/html; charset=utf-8"
-
 
 $on_suspect_content
 $on_suspect_content$parsable
@@ -144,9 +136,7 @@ $on_suspect_content$parsable
 $on_suspect_content$content_suspect
 [1] TRUE
 
-
-[attributes]
---------------------------------------
+## [attributes]
 
 problems, cached, request, class
 ```
@@ -163,7 +153,7 @@ I've learned that ideally you would only scrape each page once, so I
 checked my approach with the first page before I wrote a function to
 scrape the remaining pages.
 
-``` r
+```r
 # define the page
 url <- "https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=1"
 
@@ -171,9 +161,9 @@ url <- "https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?
 html1 <- read_html(url)
 
 # extract table info
-table1 <- 
-  html1 %>% 
-  html_node("table") %>% 
+table1 <-
+  html1 %>%
+  html_node("table") %>%
   html_table()
 table1 %>% head(3) %>% kableExtra::kable()
 ```
@@ -209,12 +199,12 @@ table1 %>% head(3) %>% kableExtra::kable()
 </tbody>
 </table>
 
-``` r
+```r
 # extract hyperlinks to specific restaurant/bar specials
-links <- 
-  html1 %>% 
-  html_elements(".o-table__tag.ccd-text-link") %>% 
-  html_attr("href") %>% 
+links <-
+  html1 %>%
+  html_elements(".o-table__tag.ccd-text-link") %>%
+  html_attr("href") %>%
   as_tibble()
 links %>% head(3) %>% kableExtra::kable()
 ```
@@ -238,11 +228,11 @@ links %>% head(3) %>% kableExtra::kable()
 </tbody>
 </table>
 
-``` r
+```r
 # add full hyperlinks to the table info
 table1Mod <-
-  bind_cols(table1, links) %>% 
-  mutate(Specials = paste0(url, value)) %>% 
+  bind_cols(table1, links) %>%
+  mutate(Specials = paste0(url, value)) %>%
   select(-c(`CCD SIPS Specials`, value))
 table1Mod %>% head(3) %>% kableExtra::kable()
 ```
@@ -284,28 +274,28 @@ Once I could confirm that the above approach harvested the information I
 needed, I adapted the code into a function that I could apply to pages
 2-3 of the site.
 
-``` r
+```r
 getTables <- function(pageNumber) {
   Sys.sleep(2)
-  
+
   url <- paste0("https://centercityphila.org/explore-center-city/ccd-sips/sips-list-view?page=", pageNumber)
-  
+
   html <- read_html(url)
-  
-  table <- 
-    html %>% 
+
+  table <-
+    html %>%
     html_node("table") %>%
     html_table()
-  
-  links <- 
-    html %>% 
-    html_elements(".o-table__tag.ccd-text-link") %>% 
-    html_attr("href") %>% 
+
+  links <-
+    html %>%
+    html_elements(".o-table__tag.ccd-text-link") %>%
+    html_attr("href") %>%
     as_tibble()
-  
+
   tableSpecials <<-
-    bind_cols(table, links) %>% 
-    mutate(Specials = paste0(url, value)) %>% 
+    bind_cols(table, links) %>%
+    mutate(Specials = paste0(url, value)) %>%
     select(-c(`CCD SIPS Specials`, value))
 }
 ```
@@ -315,9 +305,9 @@ harvest the table of restaurants/bars from pages 2 and 3. Then I
 combined all the data frames together and saved the complete data frame
 as an `.Rds` object so that I wouldn't have to scrape the data again.
 
-``` r
+```r
 # get remaining tables
-table2 <- map_df(2:3, getTables) 
+table2 <- map_df(2:3, getTables)
 
 # combine all tables
 table <- bind_rows(table1Mod, table2)
@@ -355,7 +345,7 @@ table %>% head(3) %>% kableExtra::kable()
 </tbody>
 </table>
 
-``` r
+```r
 # save full table to file
 write_rds(
   table,
@@ -377,20 +367,20 @@ in 2019](../2019-ccd-sips) and I had issues using the same API key from
 back then, so I made a new one. I restricted my new key to the Geocoding
 and Geolocation APIs.
 
-``` r
+```r
 # register my API key
 # ggmap::register_google(key = "[your key]")
 
 # geocode addresses
-specials_ggmap <- 
-  table %>% 
+specials_ggmap <-
+  table %>%
   mutate_geocode(Address)
 
 # rename new variables
-specials <- 
-  specials_ggmap %>% 
+specials <-
+  specials_ggmap %>%
   rename(Longitude = lon,
-         Latitude = lat) 
+         Latitude = lat)
 specials %>% head(3) %>% kableExtra::kable()
 ```
 
@@ -437,7 +427,7 @@ I made sure to save the new data frame with geographical coordinates as
 an `.Rds` object so I wouldn't have to geocode the data again! This
 would be particularly important if I was working on a large project.
 
-``` r
+```r
 # save table with geocoded addresses to file
 write_rds(
   specials,
@@ -450,24 +440,24 @@ To build the map, I used the
 [leaflet](https://rstudio.github.io/leaflet/) package. Some of the
 resources I found helpful, in addition to the package documentation:
 
--   [Scrape website data with the new R package rvest (+ a postscript on
-    interacting with web pages with RSelenium) · Hollie at
-    ZevRoss](https://www.zevross.com/blog/2015/05/19/scrape-website-data-with-the-new-r-package-rvest/)
-    -- how to style pop-ups
--   [Leaflet Map Markers in R · Jindra
-    Lacko](https://www.jla-data.net/eng/leaflet-markers-in-r/) -- how to
-    customize marker icons
--   [A guide to basic Leaflet accessibility ·
-    Leaflet](https://leafletjs.com/examples/accessibility/) --
-    accessibility considerations. Though it's unclear to me how these
-    features built into the Leaflet library translate over to the
-    leaflet R package. For example, I couldn't find an option for adding
-    alt-text or a title to each marker, but maybe I wasn't looking in
-    the right place within the documentation.
+- [Scrape website data with the new R package rvest (+ a postscript on
+  interacting with web pages with RSelenium) · Hollie at
+  ZevRoss](https://www.zevross.com/blog/2015/05/19/scrape-website-data-with-the-new-r-package-rvest/)
+  -- how to style pop-ups
+- [Leaflet Map Markers in R · Jindra
+  Lacko](https://www.jla-data.net/eng/leaflet-markers-in-r/) -- how to
+  customize marker icons
+- [A guide to basic Leaflet accessibility ·
+  Leaflet](https://leafletjs.com/examples/accessibility/) --
+  accessibility considerations. Though it's unclear to me how these
+  features built into the Leaflet library translate over to the
+  leaflet R package. For example, I couldn't find an option for adding
+  alt-text or a title to each marker, but maybe I wasn't looking in
+  the right place within the documentation.
 
 ### Customizing map markers
 
-``` r
+```r
 # style pop-ups for the map with inline css styling
 
 # marker for the restaurants/bars
@@ -488,21 +478,21 @@ awesome <-
 
 ### Plotting the restaurants/bars
 
-``` r
-leaflet(data = specials, 
-        width = "100%", 
+```r
+leaflet(data = specials,
+        width = "100%",
         height = "850px",
         # https://stackoverflow.com/a/42170340
         options = tileOptions(minZoom = 15,
                               maxZoom = 19)) %>%
   # add map markers ----
   addCircles(
-    lat = ~ specials$Latitude, 
-    lng = ~ specials$Longitude, 
+    lat = ~ specials$Latitude,
+    lng = ~ specials$Longitude,
     fillColor = "#009E91", #olivedrab goldenrod
-    fillOpacity = 0.6, 
+    fillOpacity = 0.6,
     stroke = F,
-    radius = 12, 
+    radius = 12,
     popup = popInfoCircles,
     label = ~ Name,
     labelOptions = labelOptions(
@@ -517,21 +507,21 @@ leaflet(data = specials,
 
 ### Adding the map background
 
-``` r
-leaflet(data = specials, 
-        width = "100%", 
+```r
+leaflet(data = specials,
+        width = "100%",
         height = "850px",
         # https://stackoverflow.com/a/42170340
         options = tileOptions(minZoom = 15,
                               maxZoom = 19)) %>%
   # add map markers ----
   addCircles(
-    lat = ~ specials$Latitude, 
-    lng = ~ specials$Longitude, 
+    lat = ~ specials$Latitude,
+    lng = ~ specials$Longitude,
     fillColor = "#009E91", #olivedrab goldenrod
-    fillOpacity = 0.6, 
+    fillOpacity = 0.6,
     stroke = F,
-    radius = 12, 
+    radius = 12,
     popup = popInfoCircles,
     label = ~ Name,
     labelOptions = labelOptions(
@@ -548,21 +538,21 @@ leaflet(data = specials,
 
 ### Setting the map view
 
-``` r
-leaflet(data = specials, 
-        width = "100%", 
+```r
+leaflet(data = specials,
+        width = "100%",
         height = "850px",
         # https://stackoverflow.com/a/42170340
         options = tileOptions(minZoom = 15,
                               maxZoom = 19)) %>%
   # add map markers ----
   addCircles(
-    lat = ~ specials$Latitude, 
-    lng = ~ specials$Longitude, 
+    lat = ~ specials$Latitude,
+    lng = ~ specials$Longitude,
     fillColor = "#009E91", #olivedrab goldenrod
-    fillOpacity = 0.6, 
+    fillOpacity = 0.6,
     stroke = F,
-    radius = 12, 
+    radius = 12,
     popup = popInfoCircles,
     label = ~ Name,
     labelOptions = labelOptions(
@@ -573,8 +563,8 @@ leaflet(data = specials,
   # add map tiles in the background ----
   addProviderTiles(providers$CartoDB.Positron) %>%
   # set the map view
-  setView(mean(specials$Longitude), 
-          mean(specials$Latitude), 
+  setView(mean(specials$Longitude),
+          mean(specials$Latitude),
           zoom = 16)
 ```
 
@@ -583,21 +573,21 @@ leaflet(data = specials,
 
 ### Adding a marker at the center
 
-``` r
-leaflet(data = specials, 
-        width = "100%", 
+```r
+leaflet(data = specials,
+        width = "100%",
         height = "850px",
         # https://stackoverflow.com/a/42170340
         options = tileOptions(minZoom = 15,
                               maxZoom = 19)) %>%
   # add map markers ----
   addCircles(
-    lat = ~ specials$Latitude, 
-    lng = ~ specials$Longitude, 
+    lat = ~ specials$Latitude,
+    lng = ~ specials$Longitude,
     fillColor = "#009E91", #olivedrab goldenrod
     fillOpacity = 0.6,
     stroke = F,
-    radius = 12, 
+    radius = 12,
     popup = popInfoCircles,
     label = ~ Name,
     labelOptions = labelOptions(
@@ -608,14 +598,14 @@ leaflet(data = specials,
   # add map tiles in the background ----
   addProviderTiles(providers$CartoDB.Positron) %>%
   # set the map view
-  setView(mean(specials$Longitude), 
-          mean(specials$Latitude), 
+  setView(mean(specials$Longitude),
+          mean(specials$Latitude),
           zoom = 16) %>%
   # add marker at the center ----
   addAwesomeMarkers(
     icon = awesome,
-    lng = mean(specials$Longitude), 
-    lat = mean(specials$Latitude), 
+    lng = mean(specials$Longitude),
+    lat = mean(specials$Latitude),
     label = "Center City District Sips 2022",
     labelOptions = labelOptions(
       style = list(
@@ -631,21 +621,21 @@ leaflet(data = specials,
 
 ### Adding fullscreen control
 
-``` r
-leaflet(data = specials, 
-        width = "100%", 
+```r
+leaflet(data = specials,
+        width = "100%",
         height = "850px",
         # https://stackoverflow.com/a/42170340
         options = tileOptions(minZoom = 15,
                               maxZoom = 19)) %>%
   # add map markers ----
   addCircles(
-    lat = ~ specials$Latitude, 
-    lng = ~ specials$Longitude, 
+    lat = ~ specials$Latitude,
+    lng = ~ specials$Longitude,
     fillColor = "#009E91", #olivedrab goldenrod
-    fillOpacity = 0.6, 
+    fillOpacity = 0.6,
     stroke = F,
-    radius = 12, 
+    radius = 12,
     popup = popInfoCircles,
     label = ~ Name,
     labelOptions = labelOptions(
@@ -656,14 +646,14 @@ leaflet(data = specials,
   # add map tiles in the background ----
   addProviderTiles(providers$CartoDB.Positron) %>%
   # set the map view
-  setView(mean(specials$Longitude), 
-          mean(specials$Latitude), 
+  setView(mean(specials$Longitude),
+          mean(specials$Latitude),
           zoom = 16) %>%
   # add marker at the center ----
   addAwesomeMarkers(
     icon = awesome,
-    lng = mean(specials$Longitude), 
-    lat = mean(specials$Latitude), 
+    lng = mean(specials$Longitude),
+    lat = mean(specials$Latitude),
     label = "Center City District Sips 2022",
     labelOptions = labelOptions(
       style = list(
@@ -671,7 +661,7 @@ leaflet(data = specials,
         "font-size" = "1.2em")
       ),
     popup = popInfoMarker,
-    popupOptions = popupOptions(maxWidth = 250)) %>% 
+    popupOptions = popupOptions(maxWidth = 250)) %>%
   # add fullscreen control button ----
   leaflet.extras::addFullscreenControl()
 ```
@@ -699,7 +689,7 @@ document](https://stackoverflow.com/questions/59668347/rmarkdown-turn-off-title)
 The `pagetitle` YAML option lets you set the HTML's title tag
 independently of the document title:
 
-``` yaml
+```yaml
 pagetitle: "Philly CCD Sips 2022 Map"
 ```
 
@@ -719,15 +709,18 @@ Overflow answer](https://stackoverflow.com/a/42796918), fixing the map
 to be mobile-responsive required adding the following metadata to the
 HTML code:
 
-``` html
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+```html
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
 ```
 
 I used the [metathis](https://pkg.garrickadenbuie.com/metathis) R
 package to add this metadata to an R code chunk in my Quarto document
 using the `meta_viewport()` function:
 
-``` r
+```r
 # make mobile-responsive
 meta_viewport(
   width = "device-width",
@@ -751,7 +744,7 @@ card](https://twitter.com/spcanelon/status/1531644079687229441).
 
 I used the `meta_social()` function to add these tags:
 
-``` r
+```r
 # tags for social media
 meta_social(
   title = "Philly CCD Sips 2022 Interactive Map",
@@ -775,7 +768,7 @@ had a couple of extra steps to take:
 
     ::: {.cell}
 
-    ``` r
+    ```r
     # write meta tags to file
     write_meta(path = "meta-map.html")
     ```
@@ -786,7 +779,7 @@ had a couple of extra steps to take:
     [`include-in-header`](https://quarto.org/docs/output-formats/html-basics.html#includes)
     Quarto YAML option helped me here:
 
-    ``` yaml
+    ```yaml
     include-in-header: meta-map.html
     ```
 
@@ -799,8 +792,8 @@ width of the page, so I made use of the
 [`page-layout`](https://quarto.org/docs/interactive/layout.html#full-page-layout)
 Quarto YAML option:
 
-``` yaml
-format: 
+```yaml
+format:
   html:
     page-layout: custom
 ```
@@ -819,7 +812,7 @@ document into a [self-contained
 HTML](https://quarto.org/docs/output-formats/html-publishing.html#standalone-html)
 with all of the content needed to create the map.
 
-``` yaml
+```yaml
 format:
   html:
     page-layout: custom

@@ -1,8 +1,8 @@
 ---
 title: "Tuyen Kieu"
 subtitle: "Fresher Data Analyst / Business Intelligence Analyst"
-description: "I am a researcher, community organizer, and R educator. My research leverages electronic health record data to study pregnancy-related outcomes, and  my organizing values data literacy as a way to build power and effect change."
-sharing_image: "/img/silvia-social.png"
+description: "Xin chào, mình là Tuyến, một người trẻ mất phương hướng, đang trên đường đi tìm câu trả lời cho câu hỏi: _Who am I?_ Blog này, là nơi mình tổng hợp và lưu trữ lại các kiến thức mình học tập trong những năm gần đây về phân tích dữ liệu."
+sharing_image: "/img/ktuyenx-social.png"
 images:
   - img/skyline.png
 image_left: false
