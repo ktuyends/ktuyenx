@@ -6,9 +6,8 @@ slug: minh-phai-song-nhu-mua-he-nam-ay
 date: "2022-06-08"
 lastmod: "2022-06-08"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

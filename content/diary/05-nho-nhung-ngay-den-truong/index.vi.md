@@ -6,9 +6,8 @@ slug: nho-nhung-ngay-den-truong
 date: "2017-07-25"
 lastmod: "2017-07-25"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

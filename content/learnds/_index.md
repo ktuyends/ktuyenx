@@ -1,7 +1,7 @@
 ---
-title: Blog Posts
+title: Learning by Writing
 description: |
-  A blog where I practice sharing my curiosity about R, Python, SQL and Power BI. It includes notes and tutorials for my future self and hopefully also for you.
+  Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics.
 author: "Tuyen Kieu"
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
@@ -12,16 +12,18 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Blog Posts
+  title: Learning by Writing
   description: |
-    This is my blog where I practice sharing my curiosity about SQL, Power BI and Python...It includes notes and tutorials for my future self and hopefully also for you.
+    Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics.
   author: "Tuyen Kieu"
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   show_sidebar_adunit: false # show ad container
 
-# set up common front matter for all pages inside blog/
+# set up common front matter for all pages inside learnds/
+type: blog
 cascade:
+  type: blog
   author: "Tuyen Kieu"
   show_author_byline: true
   show_post_date: true
@@ -29,7 +31,7 @@ cascade:
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent posts
-    text_link_url: /blog/
+    text_link_url: /learnds/
     show_sidebar_adunit: false # show ad container
 ---
 

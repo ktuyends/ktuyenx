@@ -6,9 +6,8 @@ slug: tuoi-28-tram-lang
 date: "2022-05-22"
 lastmod: "2022-05-22"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

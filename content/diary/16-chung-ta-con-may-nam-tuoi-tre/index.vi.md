@@ -6,9 +6,8 @@ slug: chung-ta-con-may-nam-tuoi-tre
 date: "2021-09-02"
 lastmod: "2021-09-02"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

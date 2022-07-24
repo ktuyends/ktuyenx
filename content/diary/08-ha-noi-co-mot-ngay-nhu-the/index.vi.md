@@ -6,9 +6,8 @@ slug: ha-noi-co-mot-ngay-nhu-the
 date: "2018-05-13"
 lastmod: "2018-05-13"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

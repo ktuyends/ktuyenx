@@ -6,9 +6,8 @@ slug: binh-than-doi-dien-nhe-nhang-buoc-qua
 date: "2020-12-27"
 lastmod: "2020-12-27"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

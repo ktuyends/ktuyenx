@@ -6,9 +6,8 @@ slug: happy-simple
 date: "2015-05-12"
 lastmod: "2021-04-12"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

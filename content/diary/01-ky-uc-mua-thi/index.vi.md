@@ -6,9 +6,8 @@ slug: ky-uc-mua-thi
 date: "2014-09-12"
 lastmod: "2021-12-08"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

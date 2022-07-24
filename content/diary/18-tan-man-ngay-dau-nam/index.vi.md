@@ -6,9 +6,8 @@ slug: tan-man-ngay-dau-nam
 date: "2022-01-01"
 lastmod: "2022-01-01"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

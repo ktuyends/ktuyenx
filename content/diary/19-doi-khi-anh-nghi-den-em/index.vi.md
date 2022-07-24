@@ -6,9 +6,8 @@ slug: doi-khi-anh-nghi-den-uyen
 date: "2022-03-20"
 lastmod: "2022-03-20"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

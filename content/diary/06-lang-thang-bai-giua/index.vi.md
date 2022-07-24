@@ -6,9 +6,8 @@ slug: lang-thang-bai-giua
 date: "2018-04-21"
 lastmod: "2018-04-21"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

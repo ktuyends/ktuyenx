@@ -6,9 +6,8 @@ slug: chut-vun-vat-cuoi-tuan
 date: "2021-11-07"
 lastmod: "2021-11-07"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

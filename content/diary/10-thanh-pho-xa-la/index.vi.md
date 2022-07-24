@@ -6,9 +6,8 @@ slug: thanh-pho-xa-la
 date: "2018-12-31"
 lastmod: "2018-12-31"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

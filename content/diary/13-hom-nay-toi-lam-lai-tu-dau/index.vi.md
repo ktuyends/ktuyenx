@@ -6,9 +6,8 @@ slug: hom-nay-toi-lam-lai-tu-dau
 date: "2020-12-01"
 lastmod: "2020-12-01"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

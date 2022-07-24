@@ -6,9 +6,8 @@ slug: mot-ngay-mua-buon
 date: "2015-05-16"
 lastmod: "2015-05-16"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

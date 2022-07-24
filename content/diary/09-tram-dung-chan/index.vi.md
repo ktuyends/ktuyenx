@@ -6,9 +6,8 @@ slug: tram-dung-chan
 date: "2018-08-25"
 lastmod: "2018-08-25"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

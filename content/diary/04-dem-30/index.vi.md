@@ -6,9 +6,8 @@ slug: dem-30-qua-thanh-cua-so-mau-xanh
 date: "2017-01-27"
 lastmod: "2017-01-27"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

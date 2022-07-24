@@ -1,7 +1,7 @@
 ---
-title: Sample Series
+title: Python Programming
 description: |
-  A series of curated resources.
+  Python is a popular general-purpose programming language. This tutorials will cover all the fundamental concepts of Python.
 author: Tuyen Kieu
 show_post_thumbnail: true
 show_author_byline: true
@@ -11,20 +11,20 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Sample Series
+  title: Python Programming
   author: Tuyen Kieu
   description: |
-    This series of blog posts contains curated lists of resources that I have found helpful in my learning.
+    Python is a popular general-purpose programming language. This tutorials will cover all the fundamental concepts of Python.
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all individual pages in series
-type: test
+type: blog
 cascade:
-  type: test
+  type: blog
   layout: single-series # for a series, do not change
-  series: Sample Series # name your series
+  series: Python Programming # name your series
   author: Tuyen Kieu
   show_author_byline: true
   show_post_date: true
@@ -36,7 +36,7 @@ cascade:
     text_contents_label: "On this page"
   tags:
   categories:
-    - Sample
+    - Python Programming
 ---
 
 ** No content below YAML for the series \_index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

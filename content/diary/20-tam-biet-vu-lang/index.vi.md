@@ -6,9 +6,8 @@ slug: tam-biet-vu-lang
 date: "2022-04-20"
 lastmod: "2022-04-20"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

@@ -6,9 +6,8 @@ slug: ve-dep-binh-di-giua-doi-thuong
 date: "2021-12-08"
 lastmod: "2021-12-08"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no

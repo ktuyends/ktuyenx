@@ -6,9 +6,8 @@ slug: thoi-gian-khong-doi-minh
 date: "2018-05-12"
 lastmod: "2018-05-12"
 alias:
-categories:
-  - My Diary
 tags:
+  - My Diary
 featured: yes
 layout: single
 draft: no
