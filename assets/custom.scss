@@ -275,3 +275,11 @@ body {
 html {
   line-height: 1.4;
 }
+
+code[class*=language-] {
+  font-size: 0.9rem !important;
+}
+
+pre[class*=language-] {
+  background: #ffffff!important;
+}
