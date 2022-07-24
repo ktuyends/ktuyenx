@@ -1,5 +1,5 @@
 ---
-title: Learn by Writing
+title: Learning By Writing
 description: "Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics."
 author: "Tuyen Kieu"
 show_post_thumbnail: true
@@ -10,7 +10,7 @@ layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Learn by Writing
+  title: Learning By Writing
   description: |
     Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics.
   author: "Tuyen Kieu"

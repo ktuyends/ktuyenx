@@ -1,5 +1,5 @@
 ---
-title: Learning by Writing
+title: Learn Data Science
 description: |
   Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics.
 author: "Tuyen Kieu"
@@ -12,7 +12,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Learning by Writing
+  title: Learn Data Science
   description: |
     Notes and eBooks about SQL, Power BI and Python for Business Intelligence & Business Analytics.
   author: "Tuyen Kieu"
