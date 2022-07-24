@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 12/5/2018</p>
 
 <p style = "text-align: justify">Vội thu xếp đồ đạc, chạy ra bến để bắt chuyến xe cuối cùng trở về nhà. Vì, hôm sau là một ngày đặc biệt...Hà Nội ngày này cũng thật lạ, năm nào cũng vậy, mưa tầm mưa tã cả đêm. Ngồi cạnh cửa sổ xe bus mà lạnh hết cả người.</p>

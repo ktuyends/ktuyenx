@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 01/01/2022</p>
 
 <p style = "text-align: justify"><i>"Xôi lạc, bánh khúc đây. Bánh khúc đây. Xôi lạc, bánh khúc đây..."</i></p>

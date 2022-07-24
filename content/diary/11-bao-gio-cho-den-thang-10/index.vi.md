@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 02/04/2020</p>
 
 <p style = "text-align: justify">Tôi nằm nghĩ vu vơ, trong căn phòng của mình, mất ngủ vì tiếng mưa rơi ngoài hiên. Nhà tôi nhỏ, lại dùng mái tôn, mỗi lần mưa về, ồn muốn chết. Phàn nàn vậy thôi, chứ có chỗ ở là tốt rồi.</p>

@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Tháng mười hai, bắt đầu bằng một ngày thứ ba lạnh se sắt, tờ lịch đã vơi đi gần hết, lại thêm một năm nữa sắp trôi qua. Tự dưng, thấy mình già thêm đôi chút.</p>
 
 <p style = "text-align: justify">Tháng mười hai ngỡ ngàng quay về khiến con người ta hụt hẫng, chao đảo, bao lo âu in hằn trên những nếp nhăn còn đang tươi trẻ. Cuối năm cuối tháng, tất bật, bộn bề, thi nhau gồng gánh lên vai.</p>

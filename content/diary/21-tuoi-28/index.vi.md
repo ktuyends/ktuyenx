@@ -13,9 +13,11 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 Hà Nội, 22/05/2022
 
-<p style = "text-align: justify">- Tao thấy hối hận khi rủ mày qua ăn cơm, gọi mày qua để mày nằm chơi game thế này à. </br>- Ừm thì...không chơi game thì làm gì giờ, trời thì mưa, mày thì ngủ như chết. </br>- Thế sắp tối rồi, mày ở lại ăn cơm tối không hay về luôn? </br>- Chắc tao về luôn đấy, không nhỡ tối trời lại mưa tiếp.</p>
+<p style = "text-align: justify">- Tao hối hận khi rủ mày qua ăn cơm, gọi mày qua để mày nằm chơi game thế này à. </br>- Ừm thì...không chơi game thì làm gì giờ, trời thì mưa, mày thì ngủ như chết. </br>- Thế sắp tối rồi, mày ở lại ăn cơm tối không hay về luôn? </br>- Chắc tao về luôn đấy, không nhỡ tối trời lại mưa tiếp.</p>
 
 <p style = "text-align: justify">Tôi tắt máy tính, dọn dẹp đồ để chuẩn bị trở về phòng. Nhìn đồng hồ thì đã 4h chiều, cả ngày hôm nay trời mưa, mưa tầm tã, thế là hai thằng chẳng thể đi đâu được.</p>
 

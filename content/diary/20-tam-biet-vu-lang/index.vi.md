@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 20/04/2022</p>
 
 <p style = "text-align: justify">Không biết vì sao, hôm nay cảm giác không được tốt cho lắm, tiết trời cả ngày xám xịt, không có nổi một chút ánh nắng, nghe đài dự báo lại sắp có gió mùa về. Thời tiết mùa này sáng nắng, chiều mưa chẳng thể nào dự đoán được. Viết đến đây tự dưng tôi nhớ đến một câu nói: <i>Phụ nữ cũng giống như thời tiết, rất dễ thay đổi. Còn đàn ông lại giống như dự báo thời tiết, đều không đáng tin cậy. Haha.</i> Tôi cảm giác mùa này như khắc tinh của mình, cả người không còn chút sức nào, thế rồi tôi lăn ra bàn ngủ lúc nào không hay, lúc tỉnh dậy trời đã sắp tối. Mở cửa phòng, định đi mua chút đồ ăn thì có tiếng vọng lại:</p>

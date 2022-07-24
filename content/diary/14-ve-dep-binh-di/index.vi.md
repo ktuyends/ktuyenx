@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Có một ngày giữa tháng năm, khi đang ngồi nhậu với anh Ngọc trong khu ký túc xá ồn ào và nhộn nhịp. Anh quay sang hỏi tôi: <i>Tuyến, em thích một người như thế nào?</i></p>
 
 <p style = "text-align: justify">Tôi bảo em không biết. Có lẽ là một người có giọng nói hay và có nụ cười xinh. Bởi vì, giọng nói sẽ đi vào tai còn nụ cười thì đi vào mắt. Anh chỉ cười và không nói gì nữa, rồi anh lại lôi cây đàn ra và ca mấy bản tình ca của Trịnh. Không biết vì sao, mỗi lần say anh đều như vậy. Có lẽ, mỗi người đều có những câu chuyện của riêng mình, không muốn nói với người khác... </p>

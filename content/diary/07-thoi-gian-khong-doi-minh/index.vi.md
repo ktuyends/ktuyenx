@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Nửa đêm, ngồi oánh nhau với thằng M, tôi bảo với nó: Có tuổi rồi, tay chân chậm chạp lóng ngóng quá. Nói vui vậy, để nó đi ngủ. Vậy mà nó hông tha cho tôi đi ngủ, bọn trẻ bây giờ sung sức ghê. Nếu như ngày còn đi học, tôi có thể thức đến 4h sáng làm bài rồi 6h đến trường, thì giờ gần như là không thể. Nhạc sĩ Vũ Thành An, có một bài hát tên là: "Rồi cũng già". Từ lúc nghe xong bài này, tôi cứ bị ám ảnh mãi bởi giai điệu của nó, rồi rảnh rảnh tôi lại ngồi lẩm bẩm: Ngày mai, rồi mình cũng già, không thể nào níu lại nữa...</p>
 
 <p style = "text-align: justify">Hồi sáng, đang ngồi tìm tư liệu, thì nhận được tin nhắn từ Dẻ:</br>

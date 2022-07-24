@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Một ngày đẹp trời nắng đã lên cao, một buổi sáng mùa thu cũng sắp kết thúc, chợt hắn nghe thấy hình như đâu đó có ai đang gọi hắn. Hắn tỉnh dậy, nhảy khỏi giường, mắt nhắm mắt mở vội vã chạy ra mở cửa, thì ra là chú bảo vệ:</p>
 
 \- Dạ, cháu đây. <br>

@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hôm nay, H nhắn tin cho tôi, nói chuyện với nhau được vài tin, tôi nghĩ có lẽ ngày mà chúng tôi không còn đi với nhau chắc cũng sắp tới rồi. Bỗng dưng tôi nhớ đến một người bạn, mà thực ra tôi cũng chẳng biết gì về người đó cả, ngay cả tên thật là gì tôi cũng không biết. Điều duy nhất tôi còn giữ lại là một lá thư bạn viết cho tôi trước ngày rời đi, trong đó có đoạn thế này:</p>
 
 <p style = "text-align: justify">Hôm qua, tôi thấy em đổi tên fb là "trâu bếu". Đó là tên mà cô bạn nhỏ kia vẫn gọi em. Thực ra tôi thích cái tên Peaceful. Nhưng: "thôi bỏ đi"! Ko quan trọng với tôi lắm. Tôi nhớ có lần tôi đã nói với em rằng: "nếu một ngày tôi thấy em biến mất. Tôi tin em đã tìm thấy bình yên". Tôi chưa nói với em vế còn lại mà tôi định nói: "Nếu một ngày em thấy tôi biến mất. Tôi biết em đã tìm thấy bình yên"!</p>

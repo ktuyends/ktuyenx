@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 08/06/2022</p>
 
 <p style = "text-align: justify">Một thói quen trở lại, khi cần từ bỏ thói quen nào đó ở hiện tại. Vì bất cứ nguyên do gì, có thể gọi là thay thế cũng được. Dạo này cuộc sống bộn bề quá, mọi thứ cứ rối tung rối mù. Mà bản thân thì lúc nào cũng trong trạng thái mệt mỏi, đôi mắt cay cay vì thiếu ngủ.</p>

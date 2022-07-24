@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 31/12/2018</p>
 
 <p style = "text-align: justify">Má tôi gọi điện bảo: Cuối tuần, không về nhà à con. Tôi bảo với má: Trời lạnh lắm, con ngại ra ngoài, đợi tuần sau ấm hơn, con về. Lúc má tôi gọi, tôi nói vậy thôi, chứ thực ra là tôi không muốn về. Mấy ngày này, tâm trạng tôi không được tốt. Nên chẳng muốn gặp ai. Chỉ muốn bình yên đi qua nốt những ngày cuối cùng của năm.</p>

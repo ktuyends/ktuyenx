@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+![](./featured.jpg)
+
 <p style = "text-align: justify">Cậu là tên bạn tốt của tớ!!! Quen cậu như thế nào nhỉ??? Đang nhớ lại đây, hồi ấy tớ ấp ủ thi lại đại học, like page hội ôn thi đại học khối A trên Fb, hé. Mấy lần up bài tập đều được cậu làm giúp ^_^ xong rùi cậu vô duyên xin nick yahoo với SĐT của tớ chứ, thêm bạn thêm vui mà. Suy nghĩ đầu tiên của tớ về cậu là...<i>"Ủa, con trai hả, tưởng nó là con gái chứ."</i> =))</p>
 
 <p style = "text-align: justify">Rùi cứ thế tớ và cậu thân nhau hơn qua những tin nhắn trao đổi bài, than thở mùa thi.... Cậu giúp đỡ tớ nhiều lắm ấy, cậu là cái chuông báo thức của tớ, sáng nào cũng gọi tớ dậy đi học, hic. Vậy mà tớ vẫn ngủ cố, hum nào cũng muộn 30p, hậu quả bi giờ mấy bạn lớp 13A1 ấy ấn tượng với tớ lắm, rất chăm chỉ đi học nhưng chưa bao giờ đi học đúng giờ. :'(</p>

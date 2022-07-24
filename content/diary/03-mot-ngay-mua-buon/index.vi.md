@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà nội, 16/05/2015</p>
 
 <p style = "text-align: justify">Những cơn mưa tháng năm của một năm về trước. Đã mang đi một người thân trong gia đình tôi, như một khoảng trống không gì bù đắp được mà mỗi lần nhắc đến chúng tôi chưa bao giờ vơi đi niềm đau.</p>

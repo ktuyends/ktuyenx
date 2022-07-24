@@ -13,7 +13,9 @@ layout: single
 draft: no
 ---
 
-<p style = "text-align: justify">Hà Nội, 27/12/2020.</p>
+<p style = "text-align: center"><img src="./featured.png"></p>
+
+<p style = "text-align: justify">Hà Nội, 27/12/2020</p>
 
 <p style = "text-align: justify">Tiếng chuông báo thức reo inh ỏi, tôi vội lấy tay tìm cái điện thoại đáng ghét để xem giờ thì giật mình, đã 10h rồi. Hôm qua tôi còn bảo, nay sẽ dậy sớm, chạy ra chợ mua ít bánh cuốn về ăn. Bánh cuốn đậu rán, cả quê tôi giờ chắc chỉ còn có một nhà làm, rất đặc biệt. Haizz, lần nào tôi cũng bảo vậy rồi lại ngủ như heo.</p>
 

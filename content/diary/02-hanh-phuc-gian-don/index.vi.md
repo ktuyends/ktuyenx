@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Bạn tôi hay bảo, quen biết nhau là duyên. Nhưng để gắn kết cuộc đời với nhau chúng ta còn cần một chữ phận. Tôi thì chưa đi qua nhiều năm tháng thăng trầm như bạn tôi, chỉ nhớ mãi một câu nói đã từng đọc ở đâu đó: Có mấy ai yêu lần đầu cũng là yêu lần cuối. Tình yêu có thời gian riêng, khoảnh khắc riêng và cũng có lý do riêng để đến và đi. Khi nó quyết định rời khỏi trái tim bạn hay trái tim của người bạn yêu, thì bạn cũng không thể làm gì và cũng không nên làm gì. Bạn không thể níu giữ nó, bắt ép nó. Bạn chỉ có thể đón nhận nó…</p>
 
 <p style = "text-align: justify">Nhiều lúc tôi hay tự hỏi, hạnh phúc và tình yêu có phức tạp hay không. Hay chỉ đơn giản như bài thơ: "Nấu cho nhau một bữa ăn bình thường". Tôi cũng không biết thế nào là đơn giản, thế nào là phức tạp, nên đành bỏ ngõ cho mỗi người tự tìm cho mình câu trả lời.</p>

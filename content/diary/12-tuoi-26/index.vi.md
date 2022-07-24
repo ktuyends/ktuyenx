@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 12/05/2020</p>
 
 <p style = "text-align: justify">Bạn tôi nhắn bảo: "Béo à, mày làm cái mô hình nào về Debit Card chưa. Tao đang cần ít tài liệu để làm báo cáo thử việc. Mà tìm google toàn ra Credit Card". Lúc đó, tôi bận, tôi bảo với nó là để tối về, tôi tìm cho. Nhưng thực sự, tối hôm đó tôi vẫn bận. Ngồi tìm giúp nó được một lúc, mà kết quả cũng không khá hơn nó chút nào, tôi đành phải trả lời nó là tôi không tìm được.</p>

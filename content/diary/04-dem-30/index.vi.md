@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, trời xanh, mây trắng, đêm trở gió. Tôi, qua thanh cửa sổ màu xanh, nhìn hàng đèn đêm sáng mờ mờ ở phía xa xa, đứng chờ bình nước tiếp cho ai đó hết, chưa biết bao giờ mới xong. Đêm đầu tiên không táo quân.</p>
 
 <p style = "text-align: justify">Hà Nội, trời xanh, mây trắng, đêm trở gió. Tôi, qua thanh cửa sổ màu xanh, đọc confession của ai đó viết về một người nào đó, bỗng dưng nhớ một người nào đó, ra đi cũng đã lâu, chưa có một mái nhà. Lặng, không biết năm tới có làm được chuyện đó không. Về đâu những vết thương.</p>

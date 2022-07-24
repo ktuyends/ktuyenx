@@ -1,0 +1,248 @@
+---
+title: "Hugo Apero Post using R Markdown"
+layout: single-sidebar
+sidebar_left: true
+date: "2022-07-15"
+publishDate: "2022-07-15"
+lastUpdated: "2022-07-15"
+slug: test-r-markdown
+categories:
+  - Sample
+tags:
+  - Sample
+subtitle: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng định dạng R Markdown."
+summary: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng định dạng R Markdown."
+featured: yes
+links:
+  - icon: map-marked-alt
+    icon_pack: fas
+    name: Interactive Map
+    url: https://goo.gl/maps/XaCozrwHuGMs7ypMA
+---
+
+## 1. Một số cú pháp markdown cơ bản
+
+### 1.1. Math
+
+Inline: `\(a^2 + b^2 = c^2\)`
+
+Newline:
+
+$$ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi $$
+
+### 1.2. Heading
+
+```markdown
+## h2 Heading {#custom-id}
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+```
+
+### 1.3. Comments
+
+<!--
+This is a comment
+-->
+
+### 1.4. Format:
+
+
+*rendered as italicized text*
+**rendered as bold text**
+***bold and italics***
+~~Strike through this text.~~
+
+
+### 1.5. Blockquotes
+
+> Đây là một đoạn code
+>> Đây là một đoạn code trong một đoạn code
+
+### 1.6. List
+
+Dạng 1:
+
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+Dạng 2:
+
+
+- Facilisis in pretium nisl aliquet
+- Nulla volutpat aliquam velit
+    - Phasellus iaculis neque
+    - Purus sodales ultricies
+
+Dạng 3, Task list:
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+### 1.7. Code
+
+**Inline:**
+
+```markdown
+In this example, `<section></section>` should be wrapped as **code**.
+```
+
+<details>
+<summary>
+Hide Code
+</summary>
+
+Lạ nhỉ
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.arange(0.0, 2.0, 0.01)
+s = 1 + np.sin(2*np.pi*t)
+plt.plot(t, s)
+
+plt.xlabel('time (s)')
+plt.ylabel('voltage (mV)')
+plt.title('About as simple as it gets, folks')
+plt.grid(True)
+plt.savefig("test.png")
+plt.show()
+```
+
+Không hiểu thấu
+
+</details>
+
+**Gist:**
+
+{{< gist spf13 7896402 >}}
+
+### 1.11. Table
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+### 1.8. Link
+
+
+<https://assemble.io>
+
+<contact@revolunet.com>
+
+[Assemble](https://assemble.io)
+
+[Upstage](https://github.com/upstage/ "Visit Upstage!")
+
+
+### 1.9. Footnotes
+
+
+This is a digital footnote[^1].
+This is a footnote with "label"[^label]
+
+[^1]: This is a digital footnote
+[^label]: This is a footnote with "label"
+
+
+### 1.10. Image & Figure
+
+
+![Minion](https://octodex.github.com/images/minion.png)
+
+![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+### 1.11. Other Shorcodes
+
+**Chèn Vimeo**
+
+{{< vimeo 146022717 >}}
+
+**Chèn Youtube**
+
+{{< youtube KRCTOOJ7JrM >}}
+
+## 2. R Code Chunk
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+
+```r
+summary(cars)
+```
+
+```
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+```
+
+```r
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
+
+```
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932
+```
+
+## 3. R Plots
+
+You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:
+
+
+```r
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```
+
+<div class="figure" style="text-align: center">
+<img src="{{< blogdown/postref >}}index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">Figure 1: A fancy pie chart.</p>
+</div>
+
+## 4. Python in R Markdown
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" />
+

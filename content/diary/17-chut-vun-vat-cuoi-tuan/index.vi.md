@@ -13,6 +13,8 @@ layout: single
 draft: no
 ---
 
+<p style = "text-align: center"><img src="./featured.jpg"></p>
+
 <p style = "text-align: justify">Hà Nội, 07/11/2021</p>
 
 <p style = "text-align: justify">Hắn dừng xe, đỗ ngay bên cạnh một chiếc ghế đá dài, ven bờ hồ nào đấy, phía dưới hình như còn có mấy bác đang câu cá. Thở dài, đặt chiếc balo xuống, gọi một ly trà đá rồi tựa mình vào ghế và tận hưởng những cơn gió nhè nhẹ thoáng qua. Ngắm nhìn những tia nắng mặt trời cuối cùng hắt xuống, cả đất trời như lại được bao trùm bởi một màu vàng cam thật đẹp.</p>
