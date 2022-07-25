@@ -283,3 +283,16 @@ code[class*=language-] {
 pre[class*=language-] {
   background: #ffffff!important;
 }
+
+.katex {
+  text-rendering: auto;
+  font: normal 1.21rem KaTeX_Main,Times New Roman,serif !important;
+  line-height: 1.2;
+  text-indent: 0;
+}
+
+img {
+  margin: auto;
+  display: block;
+  text-align: center;
+}

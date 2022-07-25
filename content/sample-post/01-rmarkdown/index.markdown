@@ -24,15 +24,19 @@ links:
 
 ### 1.1. Math
 
-Inline: `\(a^2 + b^2 = c^2\)`
+Example from the [mathjax demo](https://www.mathjax.org/#demo):
 
-Newline:
+When `\(a \ne 0\)`, there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
 
-$$ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi $$
+\$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+If I have a random $ and another $ in my text.
+
+\$$sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }$$
 
 ### 1.2. Heading
 
-```markdown
+``` markdown
 ## h2 Heading {#custom-id}
 ### h3 Heading
 #### h4 Heading
@@ -48,49 +52,40 @@ This is a comment
 
 ### 1.4. Format:
 
-
-*rendered as italicized text*
-**rendered as bold text**
-***bold and italics***
-~~Strike through this text.~~
-
+*rendered as italicized text* **rendered as bold text** ***bold and italics*** ~~Strike through this text.~~
 
 ### 1.5. Blockquotes
 
 > Đây là một đoạn code
->> Đây là một đoạn code trong một đoạn code
+>
+> > Đây là một đoạn code trong một đoạn code
 
 ### 1.6. List
 
 Dạng 1:
 
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
+1.  Lorem ipsum dolor sit amet
+2.  Consectetur adipiscing elit
+3.  Integer molestie lorem at massa
 
 Dạng 2:
 
-
-- Facilisis in pretium nisl aliquet
-- Nulla volutpat aliquam velit
-    - Phasellus iaculis neque
-    - Purus sodales ultricies
+-   Facilisis in pretium nisl aliquet
+-   Nulla volutpat aliquam velit
+    -   Phasellus iaculis neque
+    -   Purus sodales ultricies
 
 Dạng 3, Task list:
 
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
+-   [x] Write the press release
+-   [ ] Update the website
+-   [ ] Contact the media
 
 ### 1.7. Code
 
 **Inline:**
 
-```markdown
+``` markdown
 In this example, `<section></section>` should be wrapped as **code**.
 ```
 
@@ -127,36 +122,31 @@ Không hiểu thấu
 
 ### 1.11. Table
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+|--------------------------|----------------------------------------------|
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 ### 1.8. Link
 
-
 <https://assemble.io>
 
-<contact@revolunet.com>
+[contact\@revolunet.com](mailto:contact@revolunet.com)
 
 [Assemble](https://assemble.io)
 
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 
-
 ### 1.9. Footnotes
 
-
-This is a digital footnote[^1].
-This is a footnote with "label"[^label]
+This is a digital footnote[^1]. This is a footnote with "label"[^2]
 
 [^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
 
+[^2]: This is a footnote with "label"
 
 ### 1.10. Image & Figure
-
 
 ![Minion](https://octodex.github.com/images/minion.png)
 
@@ -224,7 +214,7 @@ pie(
 ```
 
 <div class="figure" style="text-align: center">
-<img src="{{< blogdown/postref >}}index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="70%" />
 <p class="caption">Figure 1: A fancy pie chart.</p>
 </div>
 
@@ -245,4 +235,3 @@ plt.show()
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" />
-

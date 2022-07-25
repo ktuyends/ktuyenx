@@ -21,11 +21,15 @@ format: hugo
 
 ### 1.1. Math
 
-Inline: $a^2 + b^2 = c^2$
+Example from the [mathjax demo](https://www.mathjax.org/#demo):
 
-Newline:
+When `\(a \ne 0\)`, there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
 
-$$ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi $$
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+If I have a random \$ and another \$ in my text.
+
+$$sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }$$
 
 ### 1.2. Heading
 
