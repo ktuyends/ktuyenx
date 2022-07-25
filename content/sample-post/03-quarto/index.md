@@ -17,7 +17,7 @@ format: hugo
 
 
 
-## 1. Một số cú pháp markdown cơ bản
+## 1. Basic Markdown
 
 ### 1.1. Math
 
@@ -43,40 +43,54 @@ $$sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }$$
 
 ### 1.3. Comments
 
+``` markdown
 <!--
 This is a comment
 -->
+```
 
 ### 1.4. Format:
 
-*rendered as italicized text* **rendered as bold text** ***bold and italics*** ~~Strike through this text.~~
+``` markdown
+*rendered as italicized text*
+**rendered as bold text**
+***bold and italics***
+~~Strike through this text.~~
+```
 
 ### 1.5. Blockquotes
 
+``` markdown
 > Đây là một đoạn code
->
-> > Đây là một đoạn code trong một đoạn code
+>> Đây là một đoạn code trong một đoạn code
+```
 
 ### 1.6. List
 
 Dạng 1:
 
-1.  Lorem ipsum dolor sit amet
-2.  Consectetur adipiscing elit
-3.  Integer molestie lorem at massa
+``` markdown
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+```
 
 Dạng 2:
 
--   Facilisis in pretium nisl aliquet
--   Nulla volutpat aliquam velit
-    -   Phasellus iaculis neque
-    -   Purus sodales ultricies
+``` markdown
+- Facilisis in pretium nisl aliquet
+- Nulla volutpat aliquam velit
+    - Phasellus iaculis neque
+    - Purus sodales ultricies
+```
 
-Dạng 3, Task list:
+Dạng 3, task list:
 
--   [x] Write the press release
--   [ ] Update the website
--   [ ] Contact the media
+``` markdown
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
 
 ### 1.7. Code
 
@@ -90,8 +104,6 @@ In this example, `<section></section>` should be wrapped as **code**.
 <summary>
 Hide Code
 </summary>
-
-Lạ nhỉ
 
 ``` python
 import matplotlib.pyplot as plt
@@ -109,15 +121,13 @@ plt.savefig("test.png")
 plt.show()
 ```
 
-Không hiểu thấu
-
 </details>
 
 **Gist:**
 
 {{< gist spf13 7896402 >}}
 
-### 1.11. Table
+### 1.8. Table
 
 | Option | Description                                                               |
 |--------|---------------------------------------------------------------------------|
@@ -125,8 +135,9 @@ Không hiểu thấu
 | engine | engine to be used for processing templates. Handlebars is the default.    |
 | ext    | extension to be used for dest files.                                      |
 
-### 1.8. Link
+### 1.9. Link
 
+``` markdown
 <https://assemble.io>
 
 <contact@revolunet.com>
@@ -134,18 +145,31 @@ Không hiểu thấu
 [Assemble](https://assemble.io)
 
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
+```
 
-### 1.9. Footnotes
+### 1.10. Footnotes
 
-This is a digital footnote[^1]. This is a footnote with "label"[^2]
+``` markdown
+This is a digital footnote[^1].
+This is a footnote with "label"[^label]
 
-### 1.10. Image & Figure
+[^1]: This is a digital footnote
+[^label]: This is a footnote with "label"
+```
 
+### 1.11. Image & Figure
+
+``` markdown
 ![Minion](https://octodex.github.com/images/minion.png)
 
 ![Alt text](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+```
 
-### 1.11. Other Shorcodes
+``` html
+<img src="./featured.png/" width=80%>
+```
+
+### 1.12. Shortcodes
 
 **Chèn Vimeo**
 
@@ -154,7 +178,3 @@ This is a digital footnote[^1]. This is a footnote with "label"[^2]
 **Chèn Youtube**
 
 {{< youtube KRCTOOJ7JrM >}}
-
-[^1]: This is a digital footnote
-
-[^2]: This is a footnote with "label"
