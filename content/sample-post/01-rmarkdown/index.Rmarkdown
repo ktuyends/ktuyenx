@@ -170,8 +170,10 @@ This is a footnote with "label"[^label]
 ```
 
 ```html
-<img src="./featured.png/" width=80%>
+<img src="./featured.jpg/" width=80% class="center-fig">
 ```
+
+<img src="./featured.jpg/" width=80% class="center-fig">
 
 ### 1.12. Shortcodes
 

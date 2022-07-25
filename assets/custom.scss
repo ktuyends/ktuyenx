@@ -291,8 +291,8 @@ pre[class*=language-] {
   text-indent: 0;
 }
 
-img {
-  margin: auto;
+.center-fig {
   display: block;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

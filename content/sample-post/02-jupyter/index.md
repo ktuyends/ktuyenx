@@ -163,8 +163,10 @@ This is a footnote with "label"[^label]
 ```
 
 ```html
-<img src="./featured.png/" width=80%>
+<img src="./featured.png/" width=80% class="center-fig">
 ```
+
+<img src="./featured.png/" width=80% class="center-fig">
 
 ### 1.12. Shortcodes
 
@@ -185,7 +187,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Tùy chỉnh size của đồ thị được tạo ra
-plt.rcParams["figure.figsize"] = (10, 8)
+plt.rcParams["figure.figsize"] = (14, 8)
 
 # Fixing random state for reproducibility
 np.random.seed(19680801)
@@ -215,7 +217,7 @@ plt.show()
 
 
     
-![png](./index_5_0.png)
+![png](img/index_6_0.png)
     
 
 
@@ -224,5 +226,5 @@ plt.show()
 Cú pháp:
 
 ```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=img
 ```
