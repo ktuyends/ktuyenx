@@ -1,18 +1,18 @@
 ---
-title: Data Analyst Portfolio
-description: ""
+title: Project Portfolio
+description: "Solving real-world analytics problems using Power BI and Python."
 author: "Tuyen Kieu"
 show_post_thumbnail: true
-show_author_byline: false
+show_author_byline: true
 show_post_date: false
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Data Analyst Portfolio
+  title: Project Portfolio
   description: |
-    Projects can be anything!
+    Solving real-world analytics problems using SQL, Power BI and Python.
   author: "Tuyen Kieu"
   text_link_label: ""
   text_link_url: ""
@@ -22,7 +22,7 @@ sidebar:
 cascade:
   show_author_byline: true
   show_post_date: true
-  show_comments: false # see site config to choose Disqus or Utterances
+  show_comments: true # see site config to choose Disqus or Utterances
   # for single-sidebar layout only
   sidebar:
     text_link_label: View all projects
