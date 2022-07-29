@@ -1,18 +1,25 @@
 ---
-title: 'Hugo Apero Post using Quarto'
+title: "Hugo Apero Post using Quarto"
 layout: single-sidebar
-date: '2022-07-24'
-publishDate: '2022-07-24'
-lastUpdated: '2022-07-24'
+date: "2022-07-24"
+publishDate: "2022-07-24"
+lastUpdated: "2022-07-24"
 slug: test-quarto
 categories:
   - Sample
 tags:
   - Sample
-subtitle: 'Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto.'
-summary: 'Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto.'
+subtitle: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
+summary: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
 featured: yes
 format: hugo
+bibliography: references.bib
+link-citations: true
+jupyter: python3
+# knitr:
+#   opts_chunk:
+#     collapse: false
+#     comment: "#>"
 ---
 
 
@@ -49,7 +56,7 @@ This is a comment
 -->
 ```
 
-### 1.4. Format:
+### 1.4. Format
 
 ``` markdown
 *rendered as italicized text*
@@ -147,17 +154,7 @@ plt.show()
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 ```
 
-### 1.10. Footnotes
-
-``` markdown
-This is a digital footnote[^1].
-This is a footnote with "label"[^label]
-
-[^1]: This is a digital footnote
-[^label]: This is a footnote with "label"
-```
-
-### 1.11. Image & Figure
+### 1.10. Image & Figure
 
 ``` markdown
 ![Minion](https://octodex.github.com/images/minion.png)
@@ -171,12 +168,229 @@ This is a footnote with "label"[^label]
 
 <img src="./featured.png/" width=80% class="center-fig">
 
-### 1.12. Shortcodes
+### 1.11. Shortcodes
 
-**Chèn Vimeo**
+Vimeo:
 
 {{< vimeo 146022717 >}}
 
-**Chèn Youtube**
+Youtube:
 
 {{< youtube KRCTOOJ7JrM >}}
+
+## 2. Citations & Footnotes
+
+### 2.1. Footnotes
+
+``` markdown
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they belong to the previous footnote.
+
+        `some code`
+
+    The whole paragraph can be indented, or just the first line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+This paragraph won't be part of the note, because it isn't indented.
+
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to
+type the note.]
+```
+
+Here is a footnote reference,[^1] and another.[^2]
+
+This paragraph won't be part of the note, because it isn't indented.
+
+Here is an inline note.[^3]
+
+### 2.2. Citations
+
+``` markdown
+Blah Blah [@wickham2015; @knuth1984]
+
+Blah Blah [see @knuth1984, pp. 33-35;
+also @wickham2015, chap. 1]
+
+@knuth1984 says blah
+
+@knuth1984 [p. 33] says blah.
+```
+
+Blah Blah ([Wickham 2015](#ref-wickham2015); [Knuth 1984](#ref-knuth1984))
+
+Blah Blah (see [Knuth 1984, 33--35](#ref-knuth1984); also [Wickham 2015, chap. 1](#ref-wickham2015))
+
+Knuth ([1984](#ref-knuth1984)) says blah
+
+Knuth ([1984, 33](#ref-knuth1984)) says blah.
+
+``` markdown
+::: {#refs}
+:::
+```
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-knuth1984" class="csl-entry">
+
+Knuth, Donald E. 1984. "Literate Programming." *The Computer Journal* 27 (2): 97--111.
+
+</div>
+
+<div id="ref-wickham2015" class="csl-entry">
+
+Wickham, Hadley. 2015. *R Packages*. 1st ed. O'Reilly Media, Inc.
+
+</div>
+
+</div>
+
+## 3. Cross References
+
+**Figures**
+
+``` markdown
+![Elephant](elephant.png){#fig-elephant}
+```
+
+See `@fig-elephant` for an illustration.
+
+**Plots**
+
+```` markdown
+```{python}
+#| label: fig-plot
+#| fig-cap: "Plot"
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()
+```
+````
+
+For example, see `@fig-plot`.
+
+**Tables**
+
+```` markdown
+```{r}
+#| label: tbl-iris
+#| tbl-cap: "Iris Data"
+library(knitr)
+kable(head(iris))
+```
+````
+
+For example, see `@tbl-iris`.
+
+**Equations**
+
+Black-Scholes `@eq-black-scholes` is a mathematical model that seeks to explain the behavior of financial derivatives, most commonly options:
+
+``` markdown
+$$
+sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }
+$$ {#eq-black-scholes}
+
+```
+
+## 4. Execution Code
+
+### 4.1. Output Options
+
+Chúng ta có thể sử dụng một số tùy chỉnh để thiết lập trạng thái của code chunk. Các tùy chỉnh này được thiết lập ở phần `YAML` của bài viết hoặc thiết lập bên trong code chunk để ghi đè các thiết lập.
+
+Ví dụ, thiết lập bên trong `YAML`:
+
+``` yaml
+---
+title: "My Document"
+execute:
+  echo: false
+jupyter: python3
+---
+```
+
+Hoặc là ghi đè bên trong code chunk:
+
+```` markdown
+```{python}
+#| echo: true
+
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.show()
+```
+````
+
+Các thiết lập chúng ta có thể sử dụng:
+
+| Option    | Description                                                                                                  |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+| `eval`    | Mặc định là `true` - thực thi code chunk                                                                     |
+| `echo`    | Mặc định là `true` - output sẽ bao gồm source code                                                           |
+| `output`  | Mặc định là `true` - output sẽ bao gồm kết quả được thực thi                                                 |
+| `warning` | Mặc định là `true` - output sẽ bao gồm các thông báo đi kèm với kết quả                                      |
+| `error`   | Mặc định là `true` - output sẽ bao gồm các lỗi nếu nó xảy ra                                                 |
+| `include` | Mặc định là `true`, nếu là `false` sẽ không hiển thị source code và output, tuy nhiên code vẫn được thực thi |
+
+### 4.2. Figure Options
+
+Chúng ta có một số cách để tùy chỉnh kích thước của các đồ thị được vẽ bởi R hoặc Python.
+
+-   Nếu sử dụng Knitr để render, chúng ta có `fig.width` và `fig.height`.
+-   Nếu sử dụng Jupyter để render, chúng ta có `figure.figsize`.
+-   Chúng ta sử dụng `fig-cap` và `fig-alt` để thêm caption và alt text cho đồ thị.
+
+Ví dụ:
+
+```` markdown
+```{python}
+#| fig-cap: "Polar axis plot"
+#| out.width: "50%"
+#| fig.align: 'center'
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+````
+
+### 4.3. Inline Code
+
+Để sử dụng kết quả của một biến khi trình bày với `R` chúng ta sử dụng biểu thức `` `r ` ``.
+
+Để sử dụng kết quả của một biến khi trình bày với `Python`, chúng ta sử dụng [`IPython.display.Markdown`](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html):
+
+```` markdown
+```{python}
+radius = 15
+from IPython.display import display, Markdown
+display(Markdown(f"The radius of the circle is {radius}."))
+```
+````
+
+[^1]: Here is the footnote.
+
+[^2]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they belong to the previous footnote.
+
+        `some code`
+
+    The whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+[^3]: Inlines notes are easier to write, since you don't have to pick an identifier and move down to
+    type the note.
