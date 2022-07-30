@@ -1,7 +1,7 @@
 ---
 title: "How To run SQL queries from a Jupyter Notebook"
 layout: single-sidebar
-date: "2021-10-09"
+date: "2021-01-09"
 publishDate: "2021-01-09"
 lastUpdated: "2021-01-09"
 slug: run-sql-from-jupyter-notebook

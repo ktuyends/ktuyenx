@@ -1,7 +1,7 @@
 ---
 title: "Các bước viết một quyển sách nho nhỏ (phần 2)"
 layout: single-sidebar
-date: "2021-10-12"
+date: "2021-05-12"
 publishDate: "2021-05-12"
 lastUpdated: "2021-05-12"
 slug: jupyter-book

@@ -1,7 +1,7 @@
 ---
 title: "Các bước viết một quyển sách nho nhỏ"
 layout: single-sidebar
-date: "2021-10-12"
+date: "2021-04-01"
 publishDate: "2021-04-01"
 lastUpdated: "2021-04-01"
 slug: writing-a-book-with-bookdown

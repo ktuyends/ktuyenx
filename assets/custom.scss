@@ -170,8 +170,12 @@ nav#TableOfContents ul li {
 
 // links 
 
+// a {
+//   text-decoration-thickness: 1.2px;
+// }
+
 a {
-  text-decoration-thickness: 1.2px;
+  text-decoration: none;
 }
 
 a:hover {

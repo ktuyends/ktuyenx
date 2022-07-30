@@ -1,7 +1,7 @@
 ---
 title: "Create Database in MS SQL Server"
 layout: single-sidebar
-date: "2021-10-12"
+date: "2021-01-12"
 publishDate: "2021-01-12"
 lastUpdated: "2021-01-12"
 slug: create-database-in-sql-server
