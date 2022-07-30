@@ -1201,3 +1201,5 @@ End Sub
 Cuối cùng thì, đây là file kết quả: [Currency Converter](currency-converter.xlsm). Còn dưới đây là một ví dụ khi chạy chương trình:
 
 <img src="plot-last-30days.png" class="center-fig">
+
+---

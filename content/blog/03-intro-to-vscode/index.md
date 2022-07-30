@@ -159,3 +159,5 @@ Cuối cùng thì nhập Profile name _(hiểu đơn giản là đặt tên cho 
 - [Writing R in VSCode: Interacting with an R session](https://renkun.me/2019/12/26/writing-r-in-vscode-interacting-with-an-r-session/)
 - [Writing R in VSCode: Working with multiple R sessions](https://renkun.me/2020/04/14/writing-r-in-vscode-working-with-multiple-r-sessions/)
 - [Visual Studio Code for Python Programmers](https://learning.oreilly.com/library/view/visual-studio-code/9781119773368/)
+
+---

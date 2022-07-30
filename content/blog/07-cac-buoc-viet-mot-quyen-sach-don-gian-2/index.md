@@ -1,25 +1,20 @@
 ---
 title: "Các bước viết một quyển sách nho nhỏ (phần 2)"
-subtitle: ""
+layout: single-sidebar
+date: "2021-10-12"
+publishDate: "2021-05-12"
+lastUpdated: "2021-05-12"
 slug: jupyter-book
-summary: "Trong [bài viết](/blog/01-blog/writing-a-book-with-bookdown/) trước, mình đã viết về `bookdown`, một packages giúp viết sách sử dụng R Markdown. Nếu bạn là một người hay sử dụng Python, có thể bạn sẽ thích sử dụng Jupyter hơn là R Markdown,..."
-date: 2021-10-20
-lastmod: 2021-10-20
-draft: false
-authors: ["Tuyen Kieu"]
-images: ["featured.png"]
-tags: ["Blog"]
-toc:
-  enable: true
-license: ""
-hiddenFromHomePage: false
-lightgallery: true
-draft: true
+subtitle: ""
+summary: "Trong bài viết trước, mình đã viết về bookdown, một thư viện giúp viết sách sử dụng R Markdown. Tuy nhiên, nếu bạn là một người hay sử dụng Python, có thể..."
+categories:
+  - Blog
+featured: yes
 ---
 
-Trong [bài viết](/writing-a-book-with-bookdown/) trước, mình đã viết về `bookdown`, một packages giúp viết sách sử dụng R Markdown. Nếu bạn là một người hay sử dụng Python, có thể bạn sẽ thích sử dụng Jupyter hơn là R Markdown,...Thật may mắn là trong Python chúng ta cũng có một thư viện tương tự như `bookdown`, là `jupyter book`.
+Trong [bài viết](/blog/2021-writing-a-book-with-bookdown/ "Các bước viết một quyển sách nho nhỏ") trước, mình đã viết về `bookdown`, một thư viện giúp viết sách sử dụng R Markdown. Tuy nhiên, nếu bạn là một người hay sử dụng Python, có thể bạn sẽ thích sử dụng Jupyter hơn là R Markdown. Thật may mắn là trong Python chúng ta cũng có một thư viện tương tự như `bookdown` là `jupyter book`
 
-Jupyter Book là một dự án mã nguồn mở, vẫn đang trong quá trình xây dựng các tính năng, tuy nhiên với những tính năng hiện tại về cơ bản cũng đủ để chúng ta có thể tạo ra được những quyển sách có hình thức đẹp, dựa trên các files jupyter `.ipynb`.
+Jupyter Book là một dự án mã nguồn mở, vẫn đang trong quá trình xây dựng các tính năng, tuy nhiên với những tính năng hiện tại về cơ bản cũng đủ để chúng ta có thể tạo ra được những quyển sách có hình thức đẹp, dựa trên các files `.ipynb`
 
 ## 1. Các bước tạo một quyển sách đơn giản
 
@@ -35,7 +30,7 @@ conda install ghp-import
 
 ### 1.2. Tạo sách
 
-Sau khi đã cài đặt `jupyter-book` và `ghp-import` ta sẽ có quy trình như sau:
+Sau khi đã cài đặt `jupyter-book` và `ghp-import`, chúng ta có quy trình như sau:
 
 ```bash
 # Tạo sách (jb hoặc jupyter-book đều được)
@@ -50,7 +45,7 @@ jb build .
 
 Sau khi chạy các lệnh trên, một số tập tin và thư mục đã được tạo ra:
 
-```
+```treeview
 ├── _build/
 ├── _config.yml
 ├── _toc.yml
@@ -64,7 +59,7 @@ Sau khi chạy các lệnh trên, một số tập tin và thư mục đã đư�
 
 Trong đó:
 
-- `_build`: Thư mục chứa các files sau khi build. Để xem sách, ta mở file: `_build/html/index.html`
+- `_build`: Thư mục chứa các files sau khi build. Để xem sách, chúng ta mở file: `_build/html/index.html`
 - `_config.yml`: Cấu hình sách
 - `_toc.yml`: Mục lục và thứ tự sắp xếp các file nội dung
 - `.md` và `.ipynb`: Các file chứa nội dung quyển sách
@@ -159,7 +154,7 @@ parse:
 
 ### 2.2. File `_toc.yml`
 
-File `_toc.yml` sắp xếp các file nội dung theo một thứ tự nào đó. Ví dụ:
+File `_toc.yml` giúp sắp xếp các file nội dung theo một thứ tự nào đó. Ví dụ:
 
 ```yml
 format: jb-book
@@ -185,18 +180,18 @@ parts:
 
 Trong đó:
 
-- `root`: Trang đầu tiên của quyển sách
-- `parts -> caption`: Tên các phần, nếu quyển sách chia thành từng phần
-- `chapters` và `sections`: Các chương của sách, mỗi file tương ứng một chương hoặc một phần của chương
-- `title`: Tiêu đề thay thế tiêu đề chapters, sections
-- `maxdepth`: Số levels hiển thị ở mục lục
-- `numbered`: Có đánh số tiêu đề hay không
+- `root`: Trang đầu tiên của quyển sách.
+- `parts -> caption`: Tên các phần, nếu quyển sách chia thành từng phần.
+- `chapters` và `sections`: Các chương của sách, mỗi file tương ứng một chương hoặc một phần của chương.
+- `title`: Tiêu đề thay thế tiêu đề chapters, sections.
+- `maxdepth`: Số levels hiển thị ở mục lục.
+- `numbered`: Có đánh số tiêu đề hay không.
 
 ### 2.3. File `requirements.txt`
 
-File `requirements.txt` chứa thông tin về các thư viện chúng ta sử dụng trong quyển sách. Ví dụ:
+File `requirements.txt` chứa thông tin về các thư viện chúng ta sử dụng bên trong quyển sách. Ví dụ:
 
-```
+```txt
 graphviz=0.16
 jupyter=1.0.0
 jupyter-book=0.10.2
@@ -222,19 +217,19 @@ Trong phần này, mình chỉ tóm tắt lại một số nội dung mình hay 
 
 ### 3.1. Blocks
 
-````
-# Tạo một note, warning
+````markdown
+<!-- Tạo một note, warning -->
 ```{note}
 Here is a note!
 ```
 
-# admonition, :class: là các tùy chọn
+<!-- admonition, :class: là các tùy chọn -->
 ```{admonition} Here's your admonition
 :class: tip
 Here's the admonition content
 ```
 
-# sidebar
+<!-- sidebar -->
 ```{sidebar} My sidebar title
 My sidebar content
 ```
@@ -246,7 +241,7 @@ My margin content
 
 ### 3.2. Citations và bibliographies
 
-Để sử dụng các trích dẫn tài liệu tham khảo, ta cần có một file bibtex - `file_name.bib` sau đó thêm các dòng sau vào trong file `_config.yml`:
+Để sử dụng các trích dẫn tài liệu tham khảo, ta cần có một file bibtex `file_name.bib` sau đó thêm các dòng sau vào trong file `_config.yml`:
 
 ```yml
 # Add a bibtex file so that we can create citations
@@ -262,7 +257,7 @@ sphinx:
 
 Để tạo bibliographies sử dụng câu lệnh sau ở cuối bài viết hoặc cuối quyển sách:
 
-````
+````markdown
 ```{bibliography}
 :filter: docname in docnames
 ```
@@ -282,7 +277,7 @@ sphinx:
 
 Để viết các công thức toán học trên một dòng riêng biệt, ta sử dụng:
 
-```
+```markdown
 # Sử dụng (my_label) nếu muốn đánh số phương trình để sau tham chiếu
 # Sử dụng {eq}`my_label` để tham chiếu
 
@@ -311,7 +306,7 @@ Cú pháp chèn hình ảnh của Markdown cơ bản: `![img_text](path/to/img)`
 
 Cú pháp chèn hình ảnh của MyST Markdown:
 
-````
+````markdown
 ```{image} path/to/img
 :alt:
 :class:
@@ -324,7 +319,7 @@ Cú pháp chèn hình ảnh của MyST Markdown:
 
 Figures tương tự như images, nhưng nó bao gồm nhiều thông tin hơn và có thể tham chiếu:
 
-````
+````markdown
 # name dùng để tham chiếu, sử dụng cú pháp: {ref}`name_text`
 
 ```{figure} path/to/fig
@@ -340,7 +335,7 @@ Caption!
 ```
 ````
 
-Một số cách tham chiếu:
+Một số cách tham chiếu khác:
 
 - `` {ref}`name_text`  ``
 - `` {ref}`New Lable <name_text>`  ``
