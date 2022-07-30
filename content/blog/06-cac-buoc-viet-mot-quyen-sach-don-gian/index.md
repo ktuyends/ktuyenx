@@ -1,23 +1,18 @@
 ---
 title: "Các bước viết một quyển sách nho nhỏ"
-subtitle: ""
+layout: single-sidebar
+date: "2021-10-12"
+publishDate: "2021-04-01"
+lastUpdated: "2021-04-01"
 slug: writing-a-book-with-bookdown
-summary: "Đọc nhiều sách, có bao giờ bạn nghĩ sẽ có một ngày mình muốn viết một quyển sách của riêng mình chưa. Đã rất nhiều lần, mình từng có ý nghĩ như vậy. Viết một quyển sách với mình, đôi khi chỉ đơn giản là..."
-date: 2021-10-14
-lastmod: 2021-10-14
-draft: false
-authors: ["Tuyen Kieu"]
-images: ["featured.png"]
-tags: ["Blog"]
-toc:
-  enable: true
-license: ""
-hiddenFromHomePage: false
-lightgallery: true
-draft: true
+subtitle: ""
+summary: "Đọc sách nhiều, có bao giờ bạn nghĩ sẽ có một ngày mình muốn viết một quyển sách của riêng mình chưa. Đã rất nhiều lần, mình từng có ý nghĩ như vậy..."
+categories:
+  - Blog
+featured: yes
 ---
 
-Đọc nhiều sách, có bao giờ bạn nghĩ sẽ có một ngày mình muốn viết một quyển sách của riêng mình chưa. Đã rất nhiều lần, mình từng có ý nghĩ như vậy. Viết một quyển sách với mình, đôi khi chỉ đơn giản là để tóm tắt lại nội dung từ một hoặc nhiều sách khác vào một quyển để tiện cho việc tra cứu mỗi khi bản thân cần đọc lại.
+Đọc sách nhiều, có bao giờ bạn nghĩ sẽ có một ngày mình muốn viết một quyển sách của riêng mình chưa. Đã rất nhiều lần, mình từng có ý nghĩ như vậy. Viết một quyển sách với mình, đôi khi chỉ đơn giản là để tóm tắt lại nội dung từ một hoặc nhiều sách khác vào một quyển để tiện cho việc tra cứu mỗi khi bản thân cần đọc lại.
 
 Bài viết này cũng như vậy, mình tóm tắt lại một số nội dung trong quyển sách _bookdown: Authoring Books and Technical Documents with R Markdown_ của ([Xie 2016](#ref-bookdown2016)).
 
@@ -55,9 +50,9 @@ Tiêu đề:
 ### Third-level header
 ```
 
-Thêm `{-}` vào phần sau của tiêu đề không muốn đánh số. Ví dụ:
+Thêm `{-}` vào phần sau của tiêu đề nếu không muốn đánh số. Ví dụ:
 
-```
+```markdown
 # Preface {-}
 ```
 
@@ -102,13 +97,17 @@ Kết quả:
 Có 2 trường hợp:
 
 - Chèn công thức bên trong câu: `$math_express$`
-- Chèn công thức ở một dòng riêng biệt: `$$math_express$$`
+- Chèn công thức ở một dòng riêng biệt: `$$` math_express `$$`
 
 Ví dụ:
 
-Inline: \$f(k) = {n \\choose k} p^{k} (1-p)^{n-k}\$. Ngược lại:
+Inline: `\\(f(k) = {n \\choose k} p^{k} (1-p)^{n-k}\\)`. Ngược lại:
 
-\$$X = \begin{bmatrix}1 & x_{1}\\\\ 1 & x_{2}\\\\ 1 & x_{3} \end{bmatrix}$\$
+```markdown
+$$
+X = \begin{bmatrix}1 & x_{1}\\\\ 1 & x_{2}\\\\ 1 & x_{3} \end{bmatrix}
+$$
+```
 
 ### 1.2. Markdown nâng cao
 
@@ -176,7 +175,7 @@ Một số tùy chọn:
 
 ### 1.4. Citations
 
-Để sử dụng trích dẫn tài liệu tham khảo trong bài viết, ta cần có file `.bib` chứa thông tin về các tài liệu tham khảo. Sau đó ta cần chỉnh sửa YAML trong tài liệu R Markdown hoặc trong phần output của bookdown
+Để sử dụng trích dẫn tài liệu tham khảo trong bài viết, ta cần có file `.bib` chứa thông tin về các tài liệu tham khảo. Sau đó ta cần chỉnh sửa YAML trong tài liệu R Markdown hoặc trong phần output của `bookdown`
 
 ```markdown
 ---
@@ -192,7 +191,7 @@ link-citations: true
 
 ### 2.1. Tạo một quyển sách định dạng HTML
 
-Trước tiên, ta cần cài đặt `bookdown`:
+Trước tiên, ta cần cài đặt `bookdown`
 
 ```r
 # stable version on CRAN
@@ -211,11 +210,11 @@ install.packages("downlit")
 
 Sau đó, chúng ta sử dụng RStudio: `File > New Project > New Directory > Book project using bookdown`
 
-<p><img src="bookdown.png"></p>
+<p><img src="bookdown.png" class="center-fig" width=57%></p>
 
-Khi đó, một quyển sách đơn giản được tạo ra bởi RStudio. Để xem kết quả, ta chọn `build -> build book`:
+Khi đó, một quyển sách đơn giản được tạo ra bởi RStudio. Để xem kết quả, ta chọn `build -> build book`
 
-<p><img src="book_preview.png"></p>
+<p><img src="book_preview.png" class="center-fig" width=80%></p>
 
 ### 2.2. Cấu trúc của một quyển sách sử dụng `bookdown`
 
@@ -227,9 +226,9 @@ Một quyển sách được tạo ra bởi `bookdown` sẽ gồm nhiều files:
 - `.bib` chứa thông tin về tài liệu tham khảo
 - Các file `.Rmd` còn lại là nội dung của từng chương
 
-Tùy chỉnh YAML trong file `index.Rmd`, thay đổi một số thông tin về tên quyển sách, tác giả của quyển sách,…:
+Tùy chỉnh YAML trong file `index.Rmd`, thay đổi một số thông tin về tên quyển sách, tác giả của quyển sách,…
 
-```markdown
+```yaml
 ---
 title: "A Minimal Book Example"
 author: "Jane Doe"
@@ -248,7 +247,7 @@ csl: chicago-fullnote-bibliography.csl
 ---
 ```
 
-Tùy chỉnh file `_output.yml`, thay đổi thông tin về font, màu sắc, repository lưu trữ quyển sách…:
+Tùy chỉnh file `_output.yml`, thay đổi thông tin về font, màu sắc, repository lưu trữ quyển sách,…
 
 ```yml
 bookdown::bs4_book:
@@ -283,9 +282,9 @@ Cấu trúc của một chương sách:
 ### A subsection
 ```
 
-Mỗi chương nằm trong một file, được bắt đầu bởi tiêu đề (header 1), sau đó là các nội dung.
+Mỗi chương nằm trong một file, được bắt đầu bởi tiêu đề `header 1`, sau đó là các nội dung.
 
-Tùy chỉnh file `_bookdown.yml`, sắp xếp thứ tự các chương sách:
+Tùy chỉnh file `_bookdown.yml` và sắp xếp thứ tự các chương sách:
 
 ```yml
 book_filename: "test"
@@ -306,9 +305,9 @@ rmd_files: ["index.Rmd", "chapter_1.Rmd", "chapter_2.Rmd"]
 output_dir: "docs"
 ```
 
-Sau đó, push quyển sách của chúng ta lên GitHub, vào phần cài đặt của Repository chứa quyển sách thay đổi `Source` thành: `master branch /docs folder`:
+Sau đó, push quyển sách của chúng ta lên GitHub, vào phần cài đặt của Repository chứa quyển sách thay đổi `Source` thành `master branch /docs folder`
 
-<p><img src="github.png"></p>
+<p><img src="github.png" class="center-fig" width=40%></p>
 
 Khi đó quyển sách của chúng ta sẽ có địa chỉ là: `http(s)://<username>.github.io/<projectname>`
 
