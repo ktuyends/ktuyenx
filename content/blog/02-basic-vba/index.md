@@ -182,7 +182,7 @@ End Sub
 
 ### 3.1. Các đối tượng trong VBA
 
-<img src="objects.png" class="center-fig">
+<img src="objects.png" class="center-fig" width=85%>
 
 Tập hợp các đối tượng:
 
