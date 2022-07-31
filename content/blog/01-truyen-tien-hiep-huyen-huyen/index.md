@@ -1,7 +1,7 @@
 ---
 title: "List truyện Tiên Hiệp, Huyền Huyễn từng đọc"
 layout: single
-date: "2021-09-02"
+date: "2020-01-01"
 slug: list-wuxiaworld
 subtitle: "Bao nhiêu năm qua, mình chỉ luôn tâm niệm một điều, đó là không bao giờ ngoảnh đầu lại. Chỉ hối hận vì những gì chưa làm được, không bao giờ hối hận vì những gì mình đã làm."
 summary: "Bao nhiêu năm qua, mình chỉ luôn tâm niệm một điều, đó là không bao giờ ngoảnh đầu lại. Chỉ hối hận vì những gì chưa làm được, không bao giờ hối hận vì những gì đã làm."
@@ -49,7 +49,7 @@ featured: yes
 
 #### Đang đọc:
 
-27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(814)_
+27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1000)_
 28. Quan Âm Chi Ngoại _(142)_
 29. Xích Tâm Tuần Thiên _(1721)_
 30. Vạn Cổ Thần Đế _(3509)_

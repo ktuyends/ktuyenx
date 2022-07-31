@@ -15,5 +15,5 @@ layout: single
 ---
 
 <head>
-  <meta http-equiv='refresh' content='0; URL=/learnds/sql4da/'>
+  <meta http-equiv='refresh' content='0; URL=/learnds/sql4da/databases-and-dbms/'>
 </head>

@@ -1,6 +1,6 @@
 ---
 title: "Python Programming"
-weight: 4
+weight: 7
 subtitle: ""
 excerpt: "This tutorials will cover all the fundamental concepts of Python."
 date: 2022-07-01
