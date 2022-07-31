@@ -32,8 +32,6 @@ EXTRACT(unit FROM source)
 
 <img class="center-fig" src="./img/postgresql-date_part-function.png" width=60%>
 
-</br>
-
 <img class="center-fig" src="./img/postgresql-extract-function.png" width=60%>
 
 ### 1.2. INTERVAL

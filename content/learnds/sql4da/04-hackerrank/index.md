@@ -1110,11 +1110,7 @@ Sau khi luyện tập xong, các bạn có thể làm thử bài test để lấ
 
 <img class="center-fig" src="./img/hackerrank-basic.png" width=70%>
 
-</br>
-
 <img class="center-fig" src="./img/hackerrank-intermediate.png" width=70%>
-
-</br>
 
 <img class="center-fig" src="./img/hackerrank-advanced.png" width=70%>
 

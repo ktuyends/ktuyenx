@@ -15,5 +15,5 @@ layout: single
 ---
 
 <head>
-  <meta http-equiv='refresh' content='0; URL=/learnds/binotes/'>
+  <meta http-equiv='refresh' content='0; URL=/learnds/binotes/bi-terminology/'>
 </head>
