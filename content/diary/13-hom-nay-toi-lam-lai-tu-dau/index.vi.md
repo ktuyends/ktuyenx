@@ -9,7 +9,7 @@ alias:
 tags:
   - My Diary
 featured: yes
-layout: single
+layout: single-sidebar
 draft: no
 ---
 
