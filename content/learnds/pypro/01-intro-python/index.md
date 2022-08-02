@@ -1,0 +1,24 @@
+---
+title: "Làm quen với Python"
+weight: 1
+subtitle: ""
+excerpt: "Sau khi đã hoàn thành series về _[các câu lệnh truy vấn SQL](/learnds/sql4da/)_. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình khá là phổ biến..."
+slug: intro-to-python
+date: 2022-07-31
+lastmod: 2022-07-31
+draft: false
+tags:
+  - Python
+format: hugo
+# bibliography: references.bib
+# link-citations: true
+jupyter: python3
+# knitr:
+#   opts_chunk:
+#     collapse: false
+#     comment: "#>"
+---
+
+
+
+Sau khi đã hoàn thành xong series về *[các câu lệnh truy vấn SQL](/learnds/sql4da/)*. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình được sử dụng khá là phổ biến trong nhiều lĩnh vực.

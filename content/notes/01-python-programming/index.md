@@ -15,5 +15,5 @@ layout: single
 ---
 
 <head>
-  <meta http-equiv='refresh' content='0; URL=/learnds/pypro/'>
+  <meta http-equiv='refresh' content='0; URL=/learnds/pypro/intro-to-python/'>
 </head>

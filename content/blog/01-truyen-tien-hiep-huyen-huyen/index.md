@@ -49,8 +49,8 @@ featured: yes
 
 #### Đang đọc:
 
-27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1000)_
-28. Quan Âm Chi Ngoại _(142)_
+27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1010)_
+28. Quan Âm Chi Ngoại _(140)_
 29. Xích Tâm Tuần Thiên _(1721)_
 30. Vạn Cổ Thần Đế _(3509)_
 
