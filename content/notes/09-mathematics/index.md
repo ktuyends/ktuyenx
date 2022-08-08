@@ -1,6 +1,6 @@
 ---
 title: "Mathematics for Machine Learning"
-weight: 6
+weight: 7
 subtitle: ""
 excerpt: "This eBook is an introduction to key mathematical concepts at the heart of machine learning."
 date: 2022-07-05

@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization"
-weight: 5
+weight: 6
 subtitle: ""
 excerpt: "This tutorial is a comprehensive guide through strategies for solving real-world analytics problems using Power BI."
 date: 2022-07-24

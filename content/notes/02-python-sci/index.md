@@ -1,6 +1,6 @@
 ---
 title: "Python Scientific Libraries"
-weight: 8
+weight: 9
 subtitle: ""
 excerpt: "Introduction to NumPy, Pandas and Matplotlib."
 date: 2022-07-02

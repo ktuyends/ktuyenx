@@ -1,6 +1,6 @@
 ---
 title: "Python for Data Science Handbook"
-weight: 9
+weight: 10
 subtitle: ""
 excerpt: "This eBook will cover these the various techniques used in data science using the Python programming language."
 date: 2022-07-06

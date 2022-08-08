@@ -12,13 +12,23 @@ tags:
 format: hugo
 # bibliography: references.bib
 # link-citations: true
-jupyter: python3
-# knitr:
-#   opts_chunk:
-#     collapse: false
-#     comment: "#>"
+# jupyter: python3
+knitr:
+  opts_chunk:
+    collapse: false
+    comment: "#>"
 ---
 
 
 
 Sau khi đã hoàn thành xong series về *[các câu lệnh truy vấn SQL](/learnds/sql4da/)*. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình được sử dụng khá là phổ biến trong nhiều lĩnh vực.
+
+## 1. Variables
+
+## 2. Datatypes
+
+## 3. Operators
+
+## 4. Input
+
+## 5. Output
