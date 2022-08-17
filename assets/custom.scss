@@ -312,3 +312,7 @@ pre[class*=language-] {
   text-align: center;
   padding: 0.5rem;
 }
+
+.post-body blockquote {
+  max-width: fit-content;
+}
