@@ -45,17 +45,13 @@ featured: yes
 23. Mink Đường Phố Số 13 _(350)_
 24. Dạ Mệnh Danh Thuật _(750/)_
 25. Tinh Môn _(626/626)_
-26. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
-27. Vạn Cổ Thần Đế _(3509)_
-38. Ta chỉ muốn an tĩnh chơi game _(1500)_
+26. Vạn Cổ Thần Đế _(3509)_
+27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
 
 #### Đang đọc:
 
-29. Quan Âm Chi Ngoại _(221)_
-30. Thâm Không Bỉ Ngạn _(870)_
-31. Xích Tâm Tuần Thiên _(1727)_
-32. Trạch Nhật Phi Thăng _(60)_
-
-
-
+28. Quan Âm Chi Ngoại _(249)_
+29. Xích Tâm Tuần Thiên _(1759)_
+30. Thâm Không Bỉ Ngạn _(1011)_
+31. Ta chỉ muốn an tĩnh chơi game _(1887)_
 ---
