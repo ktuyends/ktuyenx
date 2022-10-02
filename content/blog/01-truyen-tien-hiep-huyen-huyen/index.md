@@ -41,17 +41,19 @@ featured: yes
 19. Vũ Thần Chúa Tể _(2793)_
 20. Nhất Kiếm Độc Tôn _(1975)_
 21. Cửu Tinh Bá Thể Quyết _(4800)_
-22. Ta Có Một Thân Bị Động Kỹ _(810)_
-23. Mink Đường Phố Số 13 _(350)_
-24. Dạ Mệnh Danh Thuật _(750/)_
-25. Tinh Môn _(626/626)_
-26. Vạn Cổ Thần Đế _(3509)_
-27. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
+22. Ta Có Một Thân Bị Động Kỹ _(900)_
+23. Dạ Mệnh Danh Thuật _(750/)_
+24. Tinh Môn _(626/626)_
+25. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
+26. Mink Đường Phố Số 13 _(350)_
+27. Vạn Cổ Thần Đế _(3509)_
+28. Ta chỉ muốn an tĩnh chơi game _(1900)_
 
 #### Đang đọc:
 
-28. Quan Âm Chi Ngoại _(249)_
-29. Xích Tâm Tuần Thiên _(1759)_
-30. Thâm Không Bỉ Ngạn _(1011)_
-31. Ta chỉ muốn an tĩnh chơi game _(1887)_
+29. Quan Âm Chi Ngoại _(381)_
+30. Thâm Không Bỉ Ngạn _(1142)_
+31. Xích Tâm Tuần Thiên _(1796)_
+32. Nhân Đạo Đại Thánh _(42)_
+
 ---

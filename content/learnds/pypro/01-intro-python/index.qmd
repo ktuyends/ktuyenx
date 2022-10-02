@@ -15,13 +15,92 @@ format: hugo
 # jupyter: python3
 knitr:
   opts_chunk:
-    collapse: false
+    collapse: true
     comment: "#>"
 ---
 
 Sau khi đã hoàn thành xong series về _[các câu lệnh truy vấn SQL](/learnds/sql4da/)_. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình được sử dụng khá là phổ biến trong nhiều lĩnh vực.
 
-## 1. Variables
+## 1. Biến và phép gán
+
+### 1.1. Biến
+
+Trong Python, mọi thứ đều là đối tượng, và biến trong Python ta hiểu nôm na nó là một cái tên, trỏ đến một đối tượng nào đó. Khi một đối tượng được gán cho một biến, ta có thể sử dụng tên biến để đại diện cho đối tượng ở nhiều nơi ví dụ trong các phép toán.
+
+Để gán một đối tượng cho một biến ta sử dụng cú pháp: `ten_bien = gia_tri`. Ví dụ:
+
+```{python}
+# Phép gán
+my_var = 100
+
+# xem địa chỉ trong bộ nhớ của my_var
+print(id(my_var))
+```
+
+```{python}
+# Xem kiểu dữ liệu của biến
+type(my_var)
+```
+
+**Một số lưu ý về tên biến:**
+
+- Tên biến trong Python chỉ bao gồm các chữ cái `a-zA-Z`, chữ số `0-9` và dấu gạch dưới `_`.
+- Tên biến phân biệt giữa các ký tự in hoa và in thường.
+- Tên biến không được trùng với các từ khóa trong Python.
+- Tên biến không được bắt đầu bằng số.
+- Tên biến nên là các từ có ý nghĩa thay vì các chữ cái.
+
+### 1.2. Phép gán
+
+Một số cách sử dụng phép gán trong Python:
+
+```python
+# Gán một giá trị cho một biến
+my_var = 10
+
+# Gán một giá trị cho nhiều biến
+a = b = c = 10
+
+# Gán nhiều giá trị cho nhiều biến
+a, b = (5, 10)
+a, b = 5, 10      # a = 5, b = 10
+
+# Lưu ý với string
+a, b, c, d, e, f = 'Python'
+print(a) # 'P'
+
+# đổi giá trị giữa 2 biến
+x = 5
+y = 10
+x, y = y, x  # x = 10, y = 5
+```
+
+### 1.3. Input và Print
+
+Trong Python, người ta sử dụng hàm `input()` để yêu cầu người dùng nhập giá trị cho một biến. Kết quả của hàm `input` là kiểu string. Ngược lại, hàm `print()` được sử dụng để in giá trị của một đối tượng, biến, biểu thức,… ra màn hình.
+
+Ví dụ:
+
+```{python}
+print('Hello, world!')
+print('What is your name?')
+```
+
+```python
+# Nhập tên cho biến my_name
+my_name = input('What is your name?')
+print('It is good to meet you,', my_name)
+```
+
+```python
+# It is good to meet you, Andy
+```
+
+### 1.4. Comment
+
+Nếu để ý, các bạn có thể thấy trong code của mình hay có đoạn như `# một cái gì đó`, thì trong Python nó được gọi là ***comment***.
+
+Comment là những ghi chú mà chương trình sẽ bỏ qua khi thực thi. Thông thường, một ghi chú sẽ bắt đầu từ dấu `#` cho đến cuối dòng code.
 
 ## 2. Datatypes
 
@@ -30,4 +109,3 @@ Sau khi đã hoàn thành xong series về _[các câu lệnh truy vấn SQL](/l
 ## 4. Input
 
 ## 5. Output
-
