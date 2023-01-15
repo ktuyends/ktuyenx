@@ -1,5 +1,5 @@
 ---
-title: "List truyện Tiên Hiệp, Huyền Huyễn từng đọc"
+title: "Danh sách truyện Tiên Hiệp, Huyền Huyễn mình từng đọc"
 layout: single
 date: "2020-01-01"
 slug: list-wuxiaworld
@@ -12,9 +12,9 @@ featured: yes
 
 <p style = "text-align: justify">Không biết, trong các bạn có ai lớn tuổi rồi vẫn còn thích xem phim hoạt hình như mình không. Thời đại bây giờ, công nghệ thông tin phát triển, ta có thể xem được rất nhiều phim mà không có trên sóng truyền hình, cũng không cần phải chờ đợi vài ngày mới có một tập để xem. Nhưng, cho đến một ngày bộ phim kết thúc, mình nhận ra mỗi năm nhà sản xuất chỉ làm ra được một phần, khi mà nội dung truyện còn rất rất dài. Mình tức á, tìm ai đòi phim bây giờ...</p>
 
-<p style = "text-align: justify">Trong một group nào đấy, mọi người bắt đầu bảo thôi qua đọc truyện chữ đi, chờ phim biết đến năm nào. Kể từ đó, mình bắt đầu đến với truyện chữ, mỗi ngày có thời gian rảnh mình đều đọc vài ba chương giết thời gian, dần dần nó trở thành thói quen của mình từ ngày đại học cho đến lúc đi làm.</p>
+<p style = "text-align: justify">Trong một Group nào đấy, mọi người bắt đầu bảo thôi qua đọc truyện chữ đi, chờ phim biết đến năm nào. Kể từ đó, mình bắt đầu đến với truyện chữ, mỗi ngày có thời gian rảnh mình đều đọc vài ba chương giết thời gian, dần dần nó trở thành thói quen của mình từ ngày đại học cho đến lúc đi làm.</p>
 
-<p style = "text-align: justify">Bây giờ, mình vẫn đọc nhưng không đọc nhiều như ngày trước. Đơn giản là vì khi bạn đọc quá nhiều truyện, yêu cầu của bạn đối với một bộ truyện tự nhiên cao hơn. Các bộ truyện bây giờ không sáng tạo nhiều như trước, chủ yếu ăn theo xu hướng, motip truyện lặp đi lặp lại, đã không còn gây tò mò, hứng thú cho người đọc nữa. Đọc nhiều quá cũng là một cái tội, haizz.</p>
+<p style = "text-align: justify">Bây giờ, mình vẫn đọc nhưng không đọc nhiều như ngày trước. Đơn giản là vì khi bạn đọc quá nhiều truyện, yêu cầu của bạn đối với một bộ truyện tự nhiên cao hơn. Các bộ truyện bây giờ không sáng tạo nhiều như trước, chủ yếu viết theo xu hướng, motip truyện lặp đi lặp lại, đã không còn gây tò mò, hứng thú cho người đọc nữa. Đọc nhiều quá cũng là một cái tội, haizz.</p>
 
 ---
 
@@ -42,18 +42,19 @@ featured: yes
 20. Nhất Kiếm Độc Tôn _(1975)_
 21. Cửu Tinh Bá Thể Quyết _(4800)_
 22. Ta Có Một Thân Bị Động Kỹ _(900)_
-23. Dạ Mệnh Danh Thuật _(750/)_
+23. Dạ Mệnh Danh Thuật _(750)_
 24. Tinh Môn _(626/626)_
 25. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
 26. Mink Đường Phố Số 13 _(350)_
 27. Vạn Cổ Thần Đế _(3509)_
 28. Ta chỉ muốn an tĩnh chơi game _(1900)_
+29. Ta Thuộc Tính Tu Hành Nhân Sinh _(678)_
+30. Xích Tâm Tuần Thiên _(1800)_
 
 #### Đang đọc:
 
-29. Quan Âm Chi Ngoại _(381)_
-30. Thâm Không Bỉ Ngạn _(1142)_
-31. Xích Tâm Tuần Thiên _(1796)_
-32. Nhân Đạo Đại Thánh _(42)_
+31. Quan Âm Chi Ngoại _(500)_
+32. Thâm Không Bỉ Ngạn _(1395)_
+33. Nhân Đạo Đại Thánh _(1300)_
 
 ---

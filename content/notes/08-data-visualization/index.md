@@ -7,7 +7,7 @@ date: 2022-07-24
 author: "Tuyen Kieu"
 slug: data-visualization
 featured: true
-draft: true
+draft: false
 tags:
 categories:
   - Notes

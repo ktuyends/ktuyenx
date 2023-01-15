@@ -1,5 +1,5 @@
 ---
-title: "Create Database in MS SQL Server"
+title: "Cách tạo Database trong SQL Server"
 layout: single-sidebar
 date: "2021-01-12"
 publishDate: "2021-01-12"

@@ -7,7 +7,7 @@ date: 2022-07-02
 author: "Tuyen Kieu"
 slug: python-sci
 featured: true
-draft: true
+draft: false
 tags:
 categories:
   - Notes

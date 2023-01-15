@@ -18,7 +18,7 @@ VSCode là một text editor mã nguồn mở được phát triển bởi Micro
 
 ## 1. Visual Studio Code
 
-### 1.1. Cài đặt một số extensions linh tinh
+### 1.1. Một số extensions mình sử dụng
 
 - Theme [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) hoặc [Material](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 - Bộ icon của [Material](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) hoặc [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)

@@ -7,7 +7,7 @@ date: 2022-07-05
 author: "Tuyen Kieu"
 slug: math-for-ml
 featured: true
-draft: true
+draft: false
 tags:
 categories:
   - Notes

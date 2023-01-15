@@ -1,5 +1,5 @@
 ---
-title: "How To run SQL queries from a Jupyter Notebook"
+title: "Cách viết câu lệnh truy vấn SQL từ Jupyter Notebook"
 layout: single-sidebar
 date: "2021-01-09"
 publishDate: "2021-01-09"
