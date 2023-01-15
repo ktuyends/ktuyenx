@@ -1,5 +1,5 @@
 ---
-title: "Những trích dẫn hay từ truyện, tiểu thuyết"
+title: "Trích dẫn hay từ truyện, tiểu thuyết"
 subtitle: ""
 summary: "Nhân sinh chính là một cuốn sách, chân lý được cất giấu trong mỗi sự việc bình thường. Trở về trạng thái ban đầu, tuỳ duyên mà an."
 slug: trich-dan-hay-tu-truyen-va-tieu-thuyet

@@ -1,7 +1,7 @@
 ---
 title: "Những ngày cuối năm"
 subtitle: ""
-summary: "Bạn đã bao giờ..."
+summary: "Tôi tỉnh dậy sau một giấc ngủ dài, không cần phải nghe tiếng chuông báo thức inh ỏi vào mỗi buổi sáng như mọi khi. Hôm nay là ngày chủ nhật cuối cùng của năm. Và chỉ còn một vài ngày nữa là kết thúc năm 2022..."
 slug: nhung-ngay-cuoi-nam
 date: "2023-01-15"
 lastmod: "2023-01-15"
@@ -14,3 +14,17 @@ draft: no
 ---
 
 <p style = "text-align: center"><img src="./featured.jpg"></p>
+
+<p style = "text-align: justify">Hà Nội, 15/01/2023</p>
+
+<p style = "text-align: justify">Tôi tỉnh dậy sau một giấc ngủ dài, không cần phải nghe tiếng chuông báo thức inh ỏi vào mỗi buổi sáng như mọi khi. Hôm nay là chủ nhật. Ngày chủ nhật cuối cùng của năm. Và chỉ còn một vài ngày nữa là kết thúc năm 2022. Không biết, một năm qua bạn đã làm được những gì và còn gì tiếc nuối hay không.</p>
+
+<p style = "text-align: justify">Thật lòng mà nói, với tôi năm vừa rồi trôi qua một cách không biết giải thích như thế nào, cảm thấy kiểu mình bị giậm chân tại chỗ ý, cuộc sống hoang mang, bế tắc, nhiều chuyện không biết nên bắt đầu từ đâu. Giống như bài viết này, tôi cũng nghĩ mãi mới quyết định viết.</p>
+
+<p style = "text-align: justify">Cũng phải hơn 4 tháng rồi, tôi không viết gì. Đó là một quảng thời gian khá dài, tôi mất phương hướng và không tìm thấy chính mình. Lúc đầu tôi định viết một bài có tên là <i>"Thế giới rộng lớn, lòng người chật hẹp"</i> nhưng rồi lại thôi.</p>
+
+<p style = "text-align: justify">Hôm qua tôi gặp em...</p>
+
+---
+
+_P/s: đang viết dở_
