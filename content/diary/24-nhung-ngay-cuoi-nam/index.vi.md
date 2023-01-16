@@ -23,7 +23,7 @@ draft: no
 
 <p style = "text-align: justify">Cũng phải hơn 4 tháng rồi, tôi không viết gì. Đó là một quảng thời gian khá dài, tôi mất phương hướng và không tìm thấy chính mình. Lúc đầu tôi định viết một bài có tên là <i>"Thế giới rộng lớn, lòng người chật hẹp"</i> nhưng rồi lại thôi.</p>
 
-<p style = "text-align: justify">Hôm qua tôi gặp em...</p>
+<p style = "text-align: justify">Hôm qua, tôi và em hẹn gặp nhau. Em hỏi tôi muốn đi đâu. Tôi bảo tôi muốn đi với em, nhưng mà nay tôi không có xe, hay là em qua đón tôi đi. Rồi mình qua quán đối diện ăn ốc, xong anh sẽ dẫn em qua Nik lên tầng 10 ăn kem bơ và ngắm thành phố về đêm. Trời lạnh như này ăn kem thì quá hợp rồi.</p>
 
 ---
 
