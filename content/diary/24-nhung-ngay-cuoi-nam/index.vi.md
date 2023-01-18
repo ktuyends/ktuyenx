@@ -19,11 +19,14 @@ draft: no
 
 <p style = "text-align: justify">Tôi tỉnh dậy sau một giấc ngủ dài, không cần phải nghe tiếng chuông báo thức inh ỏi vào mỗi buổi sáng như mọi khi. Hôm nay là chủ nhật. Ngày chủ nhật cuối cùng của năm. Và chỉ còn một vài ngày nữa là kết thúc năm 2022.</p>
 
-<p style = "text-align: justify">Chiều muộn, gió mùa về, giữa cái lạnh tê cóng đến buốt người, một mình trong căn phòng vắng, nằm nghe tiếng gió, tiếng lá cây xào xạc. Trời hôm nay lạnh đến mức tôi không thể không bật dậy để đóng cửa. Qua khung cửa sổ, phố xá vẫn đông như thường lệ. Lặng nhìn dòng người hối hả ngược xuôi, tấp nập vội vã trở về với gia đình những ngày cuối năm, bỗng dưng làm tôi thấy chạnh lòng. Không biết, một năm qua bạn đã làm được những gì và còn gì tiếc nuối nữa hay không.</p>
+<p style = "text-align: justify">Chiều đông muộn, gió mùa về, giữa cái lạnh tê cóng đến buốt người, một mình trong căn phòng vắng, nằm nghe tiếng gió, tiếng lá cây xào xạc, trời hôm nay lạnh đến mức tôi không thể không bật dậy để đóng cửa. Qua khung cửa sổ, phố xá vẫn đông như thường lệ. Lặng nhìn dòng người hối hả ngược xuôi, tấp nập vội vã trở về với gia đình những ngày cuối năm, bỗng dưng làm tôi thấy chạnh lòng.</p>
+
+<p style = "text-align: justify">Thật lòng mà nói, đến giờ tôi vẫn không hiểu một năm của mình đã trôi qua như thế nào. Cảm thấy kiểu mình bị giậm chân tại chỗ. Cuộc sống hoang mang, bế tắc, nhiều chuyện không biết nên bắt đầu từ đâu.</p>
+
 
 <!---
 
-<p style = "text-align: justify">Thật lòng mà nói, với tôi năm vừa rồi trôi qua một cách không biết giải thích như thế nào, cảm thấy kiểu mình bị giậm chân tại chỗ, cuộc sống hoang mang, bế tắc, nhiều chuyện không biết nên bắt đầu từ đâu. Những ngày cuối năm, không có nhiều sách mới xuất bản, số lượng các bài viết trên nhiều blog tôi theo dõi cũng ít dần. Giống như bài viết này, tôi cũng nghĩ mãi mới quyết định viết.</p>
+<p style = "text-align: justify">Những ngày cuối năm, tôi lang thang trên nhiều diễn đàn, channel và blog để tìm câu trả lời cho một vài câu hỏi. . Giống như bài viết này, tôi cũng nghĩ mãi mới quyết định viết. Phải chăng....</p>
 
 <p style = "text-align: justify">Cũng phải hơn 4 tháng rồi, tôi không viết gì. Đó là một quảng thời gian khá dài, tôi mất phương hướng và không tìm thấy chính mình. Lúc đầu tôi định viết một bài có tên là <i>"Thế giới rộng lớn, lòng người chật hẹp"</i> nhưng rồi lại thôi.</p>
 
