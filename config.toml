@@ -1,6 +1,7 @@
 baseURL = "https://ktuyenx.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
+buildFuture = true
 
 title = "Tuyen's Blog"
 author = "Tuyen Kieu"

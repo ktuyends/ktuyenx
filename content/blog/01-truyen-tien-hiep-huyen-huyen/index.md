@@ -49,14 +49,13 @@ featured: yes
 27. Vạn Cổ Thần Đế _(3509)_
 28. Ta chỉ muốn an tĩnh chơi game _(1900)_
 29. Ta Thuộc Tính Tu Hành Nhân Sinh _(678)_
+30. Thâm Không Bỉ Ngạn _(1400)_
 
 
 #### Đang đọc:
 
-30. Quan Âm Chi Ngoại _(500)_
-31. Linh Cảnh Hành Giả _(10/833)_
-32. Thâm Không Bỉ Ngạn _(1400)_
-33. Nhân Đạo Đại Thánh _(1311)_
-34. Xích Tâm Tuần Thiên _(1800)_
+31. Linh Cảnh Hành Giả _(100)_
+32. Nhân Đạo Đại Thánh _(1327)_
+33. Xích Tâm Tuần Thiên _(1900)_
 
 ---

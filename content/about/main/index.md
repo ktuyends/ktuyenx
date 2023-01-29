@@ -6,9 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  <p align="justify">Hiện nay, mình đang làm quản lý kho cho một công ty nhập khẩu, phát triển sản xuất và cung cấp các nguyên liệu trong lĩnh vực đồ uống.</p> 
+  <p align="justify">Hiện nay, mình đang làm quản lý kho, xây dựng, thu thập và tổng hợp dữ liệu cho một công ty nhập khẩu, phát triển sản xuất và cung cấp các nguyên liệu trong lĩnh vực đồ uống.</p> 
 
-  <p align="justify">Bốn năm rồi, mình chưa bao giờ quên mình là một sinh viên khoa toán và chấp niệm về làm toán là chưa bao giờ kết thúc. Một ngày nào đó, nhanh thôi, mình sẽ trở lại và viết tiếp câu chuyện về toán ứng dụng. Và lĩnh vực mình đang muốn hướng đến là <i>Business Intelligence & Marketing Analytics.</i></p>
+  <p align="justify">Tuy nhiên, đây không phải là công việc mình muốn hướng đến trong tương lai. Chuyên ngành của mình là Toán Tài Chính và lĩnh vực mình đang muốn hướng đến là <i>Business Intelligence & Marketing Analytics.</i></p>
 
 show_outro: true
 outro: |

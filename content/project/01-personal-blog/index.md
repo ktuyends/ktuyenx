@@ -36,7 +36,7 @@ layout: single-sidebar
 - Cài đặt _[Hugo](https://gohugo.io/getting-started/installing/)_
 - Cài đặt _[R](https://www.r-project.org/)_, _[RStudio](https://www.rstudio.com/)_ và _[blogdown](https://github.com/rstudio/blogdown#installation)_
 - Cài đặt _[Git for Windows](https://git-scm.com/download/win)_ và tạo tài khoản _[Github](https://github.com/signup)_
-- Chọn theme cho blog, có khá là nhiều _[themes ở đây](https://themes.gohugo.io/)_ để cho bạn lựa chọn. Còn blog này của mình thì sử dụng _[theme Apéro](https://github.com/hugo-apero/hugo-apero)_.
+- Chọn theme cho blog, có khá là nhiều theme _[ ở đây](https://themes.gohugo.io/)_ để cho bạn lựa chọn, còn blog này của mình thì sử dụng theme _[Apéro](https://github.com/hugo-apero/hugo-apero)_
 
 
 ### Các bước tạo một blog đơn giản
