@@ -118,7 +118,7 @@ relativeURLs = true
     mapping = "title"
     reactions_enabled = "1"
     emit_metadata = "0"
-    theme = "preferred_color_scheme"
+    theme = "light"
     lang = "en"
 
   # Configuration of math rendering
