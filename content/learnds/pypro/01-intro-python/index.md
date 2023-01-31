@@ -9,7 +9,7 @@ lastmod: 2022-07-31
 draft: false
 tags:
   - Python
-format: hugo
+format: hugo-md
 # bibliography: references.bib
 # link-citations: true
 # jupyter: python3
@@ -18,8 +18,6 @@ knitr:
     collapse: true
     comment: "#>"
 ---
-
-
 
 Sau khi đã hoàn thành xong series về *[các câu lệnh truy vấn SQL](/learnds/sql4da/)*. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình được sử dụng khá là phổ biến trong nhiều lĩnh vực.
 
@@ -37,7 +35,7 @@ my_var = 100
 
 # xem địa chỉ trong bộ nhớ của my_var
 print(id(my_var))
-#> 2010392759632
+#> 2310595349840
 ```
 
 ``` python

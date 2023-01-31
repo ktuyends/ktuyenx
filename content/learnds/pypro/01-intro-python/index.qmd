@@ -9,7 +9,7 @@ lastmod: 2022-07-31
 draft: false
 tags:
   - Python
-format: hugo
+format: hugo-md
 # bibliography: references.bib
 # link-citations: true
 # jupyter: python3

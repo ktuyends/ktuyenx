@@ -12,7 +12,7 @@ tags:
 subtitle: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
 summary: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
 featured: yes
-format: hugo
+format: hugo-md
 bibliography: references.bib
 link-citations: true
 jupyter: python3
@@ -21,8 +21,6 @@ jupyter: python3
 #     collapse: false
 #     comment: "#>"
 ---
-
-
 
 ## 1. Basic Markdown
 
@@ -108,9 +106,7 @@ In this example, `<section></section>` should be wrapped as **code**.
 ```
 
 <details>
-<summary>
-Hide Code
-</summary>
+<summary>Show the code</summary>
 
 ``` python
 import matplotlib.pyplot as plt
@@ -130,6 +126,8 @@ plt.show()
 
 </details>
 
+<img src="index_files/figure-markdown_strict/cell-2-output-1.png" width="672" height="442" />
+
 **Gist:**
 
 {{< gist spf13 7896402 >}}
@@ -137,7 +135,7 @@ plt.show()
 ### 1.8. Table
 
 | Option | Description                                                               |
-|--------|---------------------------------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default.    |
 | ext    | extension to be used for dest files.                                      |
@@ -234,21 +232,9 @@ Knuth ([1984, 33](#ref-knuth1984)) says blah.
 :::
 ```
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-
-<div id="ref-knuth1984" class="csl-entry">
-
 Knuth, Donald E. 1984. "Literate Programming." *The Computer Journal* 27 (2): 97--111.
 
-</div>
-
-<div id="ref-wickham2015" class="csl-entry">
-
 Wickham, Hadley. 2015. *R Packages*. 1st ed. O'Reilly Media, Inc.
-
-</div>
-
-</div>
 
 ## 3. Cross References
 
@@ -295,7 +281,6 @@ Black-Scholes `@eq-black-scholes` is a mathematical model that seeks to explain 
 $$
 sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }
 $$ {#eq-black-scholes}
-
 ```
 
 ## 4. Execution Code
@@ -330,7 +315,7 @@ plt.show()
 Các thiết lập chúng ta có thể sử dụng:
 
 | Option    | Description                                                                                                  |
-|-----------|--------------------------------------------------------------------------------------------------------------|
+|--------------------------------|----------------------------------------|
 | `eval`    | Mặc định là `true` - thực thi code chunk                                                                     |
 | `echo`    | Mặc định là `true` - output sẽ bao gồm source code                                                           |
 | `output`  | Mặc định là `true` - output sẽ bao gồm kết quả được thực thi                                                 |

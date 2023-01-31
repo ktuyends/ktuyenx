@@ -12,7 +12,7 @@ tags:
 subtitle: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
 summary: "Kiểm tra một số cú pháp khi viết bài trong blog sử dụng Quarto."
 featured: yes
-format: hugo
+format: hugo-md
 bibliography: references.bib
 link-citations: true
 jupyter: python3
@@ -105,12 +105,10 @@ Dạng 3, task list:
 In this example, `<section></section>` should be wrapped as **code**.
 ```
 
-<details>
-<summary>
-Hide Code
-</summary>
+```{python}
+#| code-fold: true
+#| code-summary: "Show the code"
 
-```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -125,8 +123,6 @@ plt.grid(True)
 plt.savefig("test.png")
 plt.show()
 ```
-
-</details>
 
 **Gist:**
 
