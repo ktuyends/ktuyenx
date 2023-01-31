@@ -97,13 +97,29 @@ relativeURLs = true
   #textFontFamily = "avenir"
   headingFontFamily = "athelas"
 
+  # Specify use of utterances, giscus or disqus
+  comments = "giscus"
+
   # Configuration of https://utteranc.es/ for comments
-  [params.utterances]
-    use_utterances = true
-    repo_name = "ktuyends/ktuyenx"
-    issue_term = "title" # url, pathname, or title
-    theme = "boxy-light"
-    label = "comments :crystal_ball:"
+  # [params.utterances]
+  #   use_utterances = true
+  #   repo_name = "ktuyends/ktuyenx"
+  #   issue_term = "title" # url, pathname, or title
+  #   theme = "boxy-light"
+  #   label = "comments :crystal_ball:"
+
+  # Configuration of https://giscus.app/ for comments
+  [params.giscus]
+    use_giscus = true
+    repo = "ktuyends/ktuyenx"
+    repo_id = "R_kgDOHrxE3g"
+    category = "Comments"
+    category_id = "DIC_kwDOHrxE3s4CT5sF"
+    mapping = "title"
+    reactions_enabled = "1"
+    emit_metadata = "0"
+    theme = "preferred_color_scheme"
+    lang = "en"
 
   # Configuration of math rendering
   [params.math]
