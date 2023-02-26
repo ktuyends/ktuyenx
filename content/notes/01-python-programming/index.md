@@ -1,9 +1,9 @@
 ---
 title: "Python Programming"
-weight: 8
+weight: 1
 subtitle: ""
 excerpt: "This tutorials will cover all the fundamental concepts  for Python beginners."
-date: 2022-07-01
+date: 2023-02-03
 author: "Tuyen Kieu"
 slug: python-programming
 featured: true

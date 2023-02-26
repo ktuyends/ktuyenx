@@ -50,12 +50,12 @@ featured: yes
 28. Ta chỉ muốn an tĩnh chơi game _(1900)_
 29. Ta Thuộc Tính Tu Hành Nhân Sinh _(678)_
 30. Thâm Không Bỉ Ngạn _(1400)_
+31. Xích Tâm Tuần Thiên _(1930)_
 
 
 #### Đang đọc:
 
-31. Linh Cảnh Hành Giả _(100)_
-32. Nhân Đạo Đại Thánh _(1327)_
-33. Xích Tâm Tuần Thiên _(1900)_
-
+32. Quang Âm Chi Ngoại _(515)_
+33. Nhân Đạo Đại Thánh _(1385)_
+34. Vũ Trụ Chức Nghiệp Tuyển Thủ _(552)_
 ---

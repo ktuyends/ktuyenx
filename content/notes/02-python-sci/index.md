@@ -1,9 +1,9 @@
 ---
 title: "Python Scientific Libraries"
-weight: 9
+weight: 2
 subtitle: ""
 excerpt: "Introduction to NumPy, Pandas and Matplotlib."
-date: 2022-07-02
+date: 2023-02-14
 author: "Tuyen Kieu"
 slug: python-sci
 featured: true

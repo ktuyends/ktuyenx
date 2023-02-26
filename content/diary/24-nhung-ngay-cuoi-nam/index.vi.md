@@ -10,7 +10,7 @@ tags:
   - My Diary
 featured: yes
 layout: single-sidebar
-draft: no
+draft: true
 ---
 
 <p style = "text-align: center"><img src="./featured.jpg"></p>

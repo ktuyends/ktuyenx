@@ -7,7 +7,7 @@ date: 2022-07-20
 author: "Tuyen Kieu"
 slug: intro-dax
 featured: true
-draft: false
+draft: true
 tags:
 categories:
   - Notes

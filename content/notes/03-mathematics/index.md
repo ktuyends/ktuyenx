@@ -1,9 +1,9 @@
 ---
 title: "Mathematics for Machine Learning"
-weight: 7
+weight: 3
 subtitle: ""
 excerpt: "This eBook is an introduction to key mathematical concepts at the heart of machine learning."
-date: 2022-07-05
+date: 2022-03-08
 author: "Tuyen Kieu"
 slug: math-for-ml
 featured: true

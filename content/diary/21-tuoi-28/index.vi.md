@@ -1,5 +1,5 @@
 ---
-title: "Tuổi 28 - Trầm!"
+title: "Chênh vênh tuổi 28"
 subtitle: ""
 summary: "Một mình trong đêm khuya vắng, đối diện với chính lòng mình, có biết bao nỗi niềm cứ ào ạt đổ về, có cảm xúc tưởng chừng như đã lãng quên bỗng sao tự dưng nối gót tìm lại...Trong những giây phút thinh lặng quý giá đó tôi chợt..."
 slug: tuoi-28-tram-lang
@@ -31,7 +31,7 @@ Hà Nội, 22/05/2022
 
 <p style = "text-align: justify">Một mình trong đêm khuya vắng, đối diện với chính lòng mình, có biết bao nỗi niềm cứ ào ạt đổ về, có cảm xúc tưởng chừng như đã lãng quên bỗng sao tự dưng nối gót tìm lại...Trong những giây phút thinh lặng quý giá đó tôi chợt nhận ra bản thân càng ngày càng sống trầm lặng, chẳng muốn gặp ai, chỉ muốn đi làm, đi học rồi về nhà, chui vào một góc phòng với những câu hỏi còn đang dang dở. Đó có phải là trạng thái của tự kỉ không, tôi thì tôi nghĩ đó là trạng thái của sự im lặng, bởi vì cuộc sống ngoài kia đã quá vô bổ và mệt mỏi rồi.</p>
 
-<p style = "text-align: justify">Thời gian cứ trôi đi, cho một thế giới chạy đua vùn vụt với tốc độ chẳng kém. Con người ta sống càng nhanh càng chẳng thể định đoán được điều gì sẽ xảy ra trước mặt. Đã từng rất nhiều lần nghĩ sau này khi mình trưởng thành sẽ thế này thế nọ: sôi nổi cuồng nhiệt, đi nhiều nơi, quen nhiều bạn…Lại không mường tượng ra được chính mình càng lớn lên sẽ càng trầm lặng thế này, sáng đi làm tối về muộn, giữ mối liên hệ với dăm ba người bạn, thi thoảng hẹn gặp nghe bạn bè tán nhảm, mà mình thì vẫn vậy vẫn chăm sóc chính mình…</p>
+<p style = "text-align: justify">Thời gian cứ trôi đi, cho một thế giới chạy đua vùn vụt với tốc độ chẳng kém. Con người ta sống càng nhanh càng chẳng thể định đoán được điều gì sẽ xảy ra trước mặt. Đã từng rất nhiều lần nghĩ sau này khi mình trưởng thành sẽ thế này thế kia: sôi nổi cuồng nhiệt, đi nhiều nơi, quen nhiều bạn…Lại không mường tượng ra được chính mình càng lớn lên sẽ càng trầm lặng thế này, sáng đi làm tối về muộn, giữ mối liên hệ với dăm ba người bạn, thi thoảng hẹn gặp nghe bạn bè tán nhảm, mà mình thì vẫn vậy vẫn chăm sóc chính mình…</p>
 
 <p style = "text-align: justify">Nói thì nói vậy, nhưng tôi vẫn sống, vẫn bình thản đối diện với mọi chuyện. Tôi có vài người bạn rất là kỳ lạ, có khi cả năm hoặc đôi khi là vài năm chẳng nói được với nhau một câu, thế mà đến sinh nhật vẫn không quên nhắn cho tôi một tin như này:</p>
 

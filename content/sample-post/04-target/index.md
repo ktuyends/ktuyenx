@@ -16,9 +16,9 @@ draft: no
 
 ## 1. Một số việc cần làm
 
-- Xác định Domain for Data Analyst.
+- Mua bàn phím laptop.
 - Mua một số món đồ cá nhân.
-- Mua bút, notebook dùng cho việc học tập, ghi chép.
+- Mua bút, notebook, tai nghe, dùng cho việc học tập, ghi chép.
 - Lựa chọn một môn thể thao (nhảy dây, chạy bộ) để rèn thể lực.
 - Học vẽ & nấu ăn nếu có thời gian.
 

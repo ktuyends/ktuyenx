@@ -7,7 +7,7 @@ date: 2022-08-08
 author: "Tuyen Kieu"
 slug: bi-course-notes
 featured: true
-draft: false
+draft: true
 tags:
 categories:
   - Notes

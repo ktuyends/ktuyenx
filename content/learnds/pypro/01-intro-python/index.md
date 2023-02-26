@@ -2,10 +2,10 @@
 title: "Làm quen với Python"
 weight: 1
 subtitle: ""
-excerpt: "Sau khi đã hoàn thành series về _[các câu lệnh truy vấn SQL](/learnds/sql4da/)_. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình khá là phổ biến..."
+excerpt: "Hôm nay mình học Python, đây sẽ là trạm dừng chân đầu tiên của mình trên con đường đến với Data Analyst. Let's Goooo!"
 slug: intro-to-python
-date: 2022-07-31
-lastmod: 2022-07-31
+date: 2023-02-10
+lastmod: 2023-02-10
 draft: false
 tags:
   - Python
@@ -19,7 +19,9 @@ knitr:
     comment: "#>"
 ---
 
-Sau khi đã hoàn thành xong series về *[các câu lệnh truy vấn SQL](/learnds/sql4da/)*. Mình lại bắt đầu với một hành trình mới, và điểm đến tiếp theo là Python, một ngôn ngữ lập trình được sử dụng khá là phổ biến trong nhiều lĩnh vực.
+Hà Nội, 10/02/2023. Kết thúc chuỗi ngày dài nghỉ tết vô dụng, và mình thì vẫn chưa làm được gì. 2023 rồi, không còn thời gian để rong chơi nữa, phải cố gắng hơn trong tương lai thôi.
+
+Hôm nay mình học Python, đây sẽ là trạm dừng chân đầu tiên của mình trên con đường đến với Data Analyst. Let's Goooo!
 
 ## 1. Biến và phép gán
 
@@ -35,7 +37,7 @@ my_var = 100
 
 # xem địa chỉ trong bộ nhớ của my_var
 print(id(my_var))
-#> 2310595349840
+#> 2937340104016
 ```
 
 ``` python
