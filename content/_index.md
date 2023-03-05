@@ -1,7 +1,7 @@
 ---
 title: "Tuyen Kieu"
 subtitle: "Fresher Data Analyst / Business Intelligence Analyst"
-description: "Xin chào, mình là Tuyến, một người hướng nội, thích làm bạn với những con số và những câu chữ. Blog này ra đời với suy nghĩ mình cần một nơi để lưu trữ lại những kiến thức về phân tích dữ liệu, ngoài ra nó cũng là nơi để mình viết về những thăng trầm trong cuộc sống."
+description: "Xin chào, mình là Tuyến, một người hướng nội, thích làm bạn với những con số và những câu chữ. Blog này ra đời với suy nghĩ mình cần một nơi để lưu trữ lại những kiến thức về phân tích dữ liệu, ngoài ra đây cũng là nơi để mình viết về những thăng trầm trong cuộc sống."
 sharing_image: "/img/ktuyenx-social.png"
 images:
   - img/andyx.jpg
