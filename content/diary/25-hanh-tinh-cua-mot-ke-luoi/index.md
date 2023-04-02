@@ -10,7 +10,7 @@ tags:
   - My Diary
 featured: yes
 layout: single-sidebar
-draft: false
+draft: true
 ---
 
 <p style="text-align:justify">Hà Nội, 01/04/2023.</p>
