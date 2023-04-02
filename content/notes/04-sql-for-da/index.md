@@ -7,7 +7,7 @@ date: 2022-07-03
 author: "Tuyen Kieu"
 slug: sql-for-da
 featured: true
-draft: true
+draft: false
 tags:
 categories:
   - Notes

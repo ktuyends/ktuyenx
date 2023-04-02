@@ -51,11 +51,12 @@ featured: yes
 29. Ta Thuộc Tính Tu Hành Nhân Sinh _(678)_
 30. Thâm Không Bỉ Ngạn _(1400)_
 31. Xích Tâm Tuần Thiên _(1930)_
-
+32. Thôn Phệ Tinh Không _(1485/1485)_
 
 #### Đang đọc:
 
-32. Quang Âm Chi Ngoại _(515)_
-33. Nhân Đạo Đại Thánh _(1385)_
-34. Vũ Trụ Chức Nghiệp Tuyển Thủ _(552)_
+33. Nhân Đạo Chí Tôn _(147/1494)_
+34. Nhân Đạo Đại Thánh _(1432)_
+35. Quang Âm Chi Ngoại _(563)_ 
+36. Vũ Trụ Chức Nghiệp Tuyển Thủ _(577)_
 ---

@@ -6,7 +6,7 @@ excerpt: "Bài viết tập hợp một số hàm SQL mình sử dụng trong qu
 slug: sql-functions
 date: 2022-08-17
 lastmod: 2022-08-17
-draft: false
+draft: true
 tags:
   - SQL
   - SQL for Data Analysis

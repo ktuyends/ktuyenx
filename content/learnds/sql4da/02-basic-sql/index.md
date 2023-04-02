@@ -6,7 +6,7 @@ excerpt: "Sau khi nắm được các kiến thức cơ bản về CSDL trong b�
 slug: basic-sql
 date: 2022-03-10
 lastmod: 2022-03-10
-draft: false
+draft: true
 tags:
   - SQL
   - SQL for Data Analysis

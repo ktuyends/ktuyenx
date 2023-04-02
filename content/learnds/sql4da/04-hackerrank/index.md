@@ -6,7 +6,7 @@ excerpt: "Sau khi đã đi qua rất là nhiều kiến thức về SQL trong ba
 slug: hackkerank
 date: 2022-04-01
 lastmod: 2022-04-01
-draft: false
+draft: true
 tags:
   - SQL
   - SQL for Data Analysis

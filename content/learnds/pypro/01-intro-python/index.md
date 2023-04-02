@@ -4,8 +4,8 @@ weight: 1
 subtitle: ""
 excerpt: "Hôm nay mình học Python, đây sẽ là trạm dừng chân đầu tiên của mình trên con đường đến với Data Analyst. Let's Goooo!"
 slug: intro-to-python
-date: 2023-02-10
-lastmod: 2023-02-10
+date: 2023-04-02
+lastmod: 2023-04-02
 draft: false
 tags:
   - Python
@@ -19,7 +19,7 @@ knitr:
     comment: "#>"
 ---
 
-Hà Nội, 10/02/2023. Kết thúc chuỗi ngày dài nghỉ tết vô dụng, và mình thì vẫn chưa làm được gì. 2023 rồi, không còn thời gian để rong chơi nữa, phải cố gắng hơn trong tương lai thôi.
+Hà Nội, 02/04/2023. Vậy là ba tháng đầu tiên của năm 2023 đã trôi qua, và mình thì vẫn chưa làm được gì. 2023 rồi đấy, không còn thời gian để rong chơi nữa, phải cố gắng hơn trong tương lai thôi.
 
 Hôm nay mình học Python, đây sẽ là trạm dừng chân đầu tiên của mình trên con đường đến với Data Analyst. Let's Goooo!
 
@@ -37,7 +37,7 @@ my_var = 100
 
 # xem địa chỉ trong bộ nhớ của my_var
 print(id(my_var))
-#> 2937340104016
+#> 1747587042640
 ```
 
 ``` python

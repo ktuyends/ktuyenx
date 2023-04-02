@@ -6,7 +6,7 @@ excerpt: "Trong bài này chúng ta sẽ đi xử lý một số kiểu dữ li�
 slug: advanced-sql
 date: 2022-03-15
 lastmod: 2022-03-15
-draft: false
+draft: true
 tags:
   - SQL
   - SQL for Data Analysis
