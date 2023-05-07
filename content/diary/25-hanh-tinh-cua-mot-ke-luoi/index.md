@@ -3,8 +3,8 @@ title: "Hành tinh của một kẻ lười"
 subtitle: "Có rất nhiều lúc trong cuộc sống khiến bạn cảm thấy sao mà buồn chán, chậm rãi từng bước không thấy điểm đến, sóng to gió lớn lại chẳng có đường về."
 summary: "Có rất nhiều lúc trong cuộc sống khiến bạn cảm thấy sao mà buồn chán, chậm rãi từng bước không thấy điểm đến, sóng to gió lớn lại chẳng có đường về."
 slug: hanh-tinh-cua-mot-ke-luoi
-date: "2023-05-03"
-lastmod: "2023-05-03"
+date: "2023-05-07"
+lastmod: "2023-05-07"
 alias:
 tags:
   - My Diary
@@ -15,7 +15,7 @@ draft: no
 
 <p style = "text-align: center"><img src="./featured.png"></p>
 
-<p style="text-align:justify">Hà Nội, 03/05/2023</p>
+<p style="text-align:justify">Hà Nội, 07/05/2023</p>
 
 <p style="text-align:justify">Có những khi trời mưa mấy ngày liền, và bạn không ra khỏi nhà từng ấy ngày. Và có những ngày, dù trời không mưa bạn cũng chỉ muốn ru rú một xó, mặc kệ thế giới ngoài kia, bạn vẫn lạnh nhạt với mọi thứ, chỉ để nhấm nháp sự tự do đơn độc trong thế giới của riêng mình. Đó là những lời miêu tả ngắn gọn dành cho bốn ngày nghỉ của hắn.</p> 
 
@@ -25,7 +25,10 @@ draft: no
 
 <p style="text-align:justify">Có một ngày, hắn hỏi bạn: <i>Cậu đã bao giờ nghĩ đến chuyện bỏ phố về quê chưa</i>? Bạn bảo: <i>Có chứ, nhưng nghĩ về quê ở với bố mẹ thì cũng phức tạp, mình ở phố quen rồi, nhớ hay yêu thương bố mẹ là có thật, nhưng bảo về ở gần cùng nhà, cứ sáng tối léo nhéo thì mình thấy mệt mỏi. Còn cậu?</i></p>
 
-<p style="text-align:justify">Hắn á, có lẽ hắn chỉ đơn giản là thích cái không khí trong lành, cái thanh âm yên bình của làng quê nơi hắn sống. Sức khoẻ bố mẹ hắn ngày càng yếu, hắn cũng muốn ở nhà nhiều thêm một chút. Chứ giờ mà về quê hắn đâu biết làm gì đâu, rồi lấy gì mà sống. Bạn hắn còn bảo mày bị khùng à, đang yên đang lành đòi về quê.</p>
+<p style="text-align:justify">Hắn á, có lẽ hắn chỉ đơn giản là thích cái không khí trong lành, cái thanh âm yên bình của làng quê nơi hắn sống. Sức khoẻ bố mẹ hắn ngày càng yếu, hắn cũng muốn ở nhà nhiều thêm một chút. Chứ giờ mà về quê hắn đâu biết làm gì đâu, rồi lấy gì mà sống. Bạn hắn còn bảo mày bị khùng à, đang yên đang lành đòi về quê...</p>
+
+<p style="text-align:justify">Hà Nội đêm nay trời đổ mưa, cơn mưa đầu tiên của tháng năm, bỗng dưng làm hắn nhớ đến căn phòng cũ ở Vũ Lăng, nhớ tiếng mưa rơi lộp độp trên mái tôn mỗi khi mưa về. Tháng năm về,...</p>
 
 ---
-P/s: đang viết dở
+
+_P/s: đang viết dở_
