@@ -33,14 +33,10 @@ draft: no
 
 <p style="text-align:justify">Bảy năm rồi, chớp mắt đã bảy năm trôi qua. Những người đồng đội năm đó giờ đã mỗi người một nơi. Thằng thì đã có vị trí ổn định trong một phòng phân tích của ngân hàng nào đó. Thằng thì mới du học Pháp trở về nước. Nói chung về cơ bản nhìn lại, trong ba đứa chỉ còn hắn là đứa bết bát nhất, chấp niệm về sự hoàn hảo để rồi khi mộng tưởng tan vỡ, biến hắn từ một người luôn tràn đầy năng lượng trở thành một kẻ suốt ngày mặt mày ủ rũ, nhiệt huyết ngày đó có lẽ vẫn còn nhưng để tìm lại đã không phải là một chuyện dễ dàng.</p>
 
-<p style="text-align:justify">Ngày trước hắn vẫn nghĩ bản thân còn rất nhiều thời gian để cố gắng, có những chuyện hôm nay không làm thì ngày mai làm cũng không sao. Cho đến khi hắn đi làm, bản thân luôn bị xoay vòng bởi vòng quay của công việc, cuộc sống. Rồi hắn sắp 30, hắn mới chợt giật mình nhận ra có những chuyện không làm, có lẽ sẽ không còn cơ hội nữa. Mộng tưởng của hắn vẫn còn ở đó, nhiệt huyết hắn còn chưa tìm lại được...</p>
+<p style="text-align:justify">Ngày trước hắn vẫn nghĩ bản thân còn rất nhiều thời gian để cố gắng, có những chuyện hôm nay không làm thì ngày mai làm cũng không sao. Cho đến khi hắn đi làm, bản thân luôn bị xoay vòng bởi vòng quay của công việc, cuộc sống. Rồi hắn sắp 30, hắn mới chợt giật mình nhận ra có những chuyện hôm nay không làm, sẽ không còn cơ hội nữa. Mộng tưởng của hắn vẫn còn ở đó, nhiệt huyết của hắn còn chưa tìm lại được, hắn vẫn còn một năm để cố gắng...</p>
 
-<p style="text-align:justify"></p>
+<p style="text-align:justify">Những năm này, có đôi lần hắn trằn trọc không ngủ được, suy nghĩ về con đường hắn muốn đi, về những quyết định hắn đã thực hiện. Hắn không biết nếu được lựa chọn lại từ đầu, hắn có đưa ra những lựa chọn khác và liệu kết quả có tốt hơn hay không. Vào một thời điểm nào đó, bản thân sẽ trải qua nhiều quyết định sai lầm về cả học tập, công việc và cuộc sống. Có lẽ trưởng thành thực sự không phải là tìm ra một con đường hoàn hảo, mà chính là sự bình thản đối diện với nó.</p>
 
-<p style="text-align:justify"></p>
+<p style="text-align:justify">Nhiều người hỏi hắn sắp 30 rồi sao chưa chịu lập gia đình. Nếu câu hỏi này được hỏi vào cách đây 2-3 năm, hắn sẽ trả lời là chưa tìm được người thích hợp. Giày đúng thì êm chân, người đúng thì yên thân. Còn hiện tại, không phải là hắn không muốn lập gia đình sớm chỉ là hắn chưa thực sự sẵn sàng, hắn có những chuyện khác quan trọng hơn. Ai rồi cũng đều có những khó khăn của riêng mình. Mọi quyết định trong cuộc sống vốn là sự đánh đổi, khi bạn đưa ra một quyết định bạn phải đánh đổi bằng nhiều chuyện khác.</p>
  
-<p style="text-align:justify"></p>
-
-<p style="text-align:justify"></p>
-
----
+<p style="text-align:justify">Cuối cùng, hắn chỉ muốn nói, mỗi người trên thế giới này đều đang sinh hoạt và làm việc dựa trên múi giờ của riêng mình. Ai rồi cũng sẽ về đích trong hành trình dài đằng đẵng của cuộc đời, có thể bạn xuất phát chậm hơn những người khác, nhưng bạn sẽ vẫn về đích đó thôi. Hắn nghĩ mỗi người nên tập chung vào chuyện của mình hơn là chuyện của người khác và tôn trọng quyết định của mọi người. Bởi vì hắn là kẻ ích kỷ và đôi khi hắn vẫn thường gọi những lời như <i>mọi chuyện rồi sẽ ổn thôi</i> là nghệ thuật lừa dối bản thân...</p>
