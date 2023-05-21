@@ -10,7 +10,7 @@ tags:
   - My Diary
 featured: yes
 layout: single-sidebar
-draft: true
+draft: no
 ---
 
 <p style = "text-align: justify">Hai năm rồi, tôi không đạp xe. Nếu có đi đâu đó thì cũng là đi xe bus hoặc nhỏ bạn phi xe qua đón. Có lần, tôi đi đóng tiền vé gửi xe, chú bảo vệ nhìn tôi rồi hỏi: Lâu rồi không đạp xe hả cháu. tôi cười, nhìn chú rồi bảo: kí túc xá bây giờ chắc chẳng còn mấy người đi xe đạp đâu chú nhỉ? Nhìn mấy hàng xe bám đầy bụi trong khu gửi xe là tôi biết mà. Nhiều người có khi còn thấy lạ khi tuổi này rồi còn đi xe đạp. Như thằng bạn suk zak của tôi, không biết nó nghe ai kể lại chuyện ngày xưa tôi đạp xe đi nhậu, rồi nó nhìn tôi như người ngoài hành tinh vậy. Mấy lần đi nhậu về tôi kể với nó, song, nó nhắn lại: Hôm nay mày lại đạp xe đi nhậu hả. Nó mà ở gần là tôi đấm cho nó sml rồi. Suk zak!</p>
