@@ -41,4 +41,4 @@ draft: no
  
 <p style="text-align:justify">Cuối cùng thì, hắn chỉ muốn nói, mỗi người trên thế giới này đều là cá thể độc lập, đều đang sinh hoạt và làm việc dựa trên múi giờ của riêng mình. Và đều có những mưu cầu khác nhau về cuộc sống. Ai rồi cũng đều sẽ có những khó khăn của riêng mình. Hắn nghĩ mỗi người nên tập chung vào chuyện của chính mình hơn là chuyện của người khác. Bởi vì hắn là kẻ ích kỷ.</p>
 
-<p style="text-align:justify">Trong hành trình dài đằng đẵng của cuộc đời, có thể bạn xuất phát chậm hơn những người khác, nhưng bạn sẽ vẫn về đích đó thôi. Mọi chuyện sẽ ổn mà - Nghệ thuật lừa dối bản thân. </p>
+<p style="text-align:justify">Và trong hành trình dài đằng đẵng của cuộc đời, có thể bạn xuất phát chậm hơn những người khác, nhưng bạn sẽ vẫn về đích đó thôi. Mọi chuyện sẽ ổn mà, còn ổn theo cách nào thì... </p>
