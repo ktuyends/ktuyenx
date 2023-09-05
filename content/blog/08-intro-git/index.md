@@ -10,6 +10,7 @@ summary: "Nếu bạn là một người làm trong lĩnh vực liên quan đế
 categories:
   - Blog
 featured: yes
+draft: yes
 ---
 
 Nếu bạn là một người làm trong lĩnh vực liên quan đến lập trình hoặc công việc cần phải viết code, thì có lẽ bạn cũng không xa lạ gì với Git. Hiểu nôm na thì chúng ta thường sử dụng Git để quản lý các phiên bản code. Trước khi đi tìm hiểu về Git mình sẽ đi cài đặt một số phần mềm hỗ trợ. 

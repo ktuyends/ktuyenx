@@ -11,6 +11,7 @@ categories:
   - Blog
   - Python
 featured: yes
+draft: yes
 ---
 
 <p style="text-align:justify">Một trong những hướng dẫn đầu tiên khi học Python là hãy tải Python từ trang web của nó và cài đặt trên hệ điều hành của mình. Nếu bạn là một người mới làm quen với Python thì bạn sẽ không cần quan tâm quá nhiều đến các phiên bản được cài đặt trên máy tính. </p>

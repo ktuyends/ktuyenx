@@ -16,11 +16,20 @@ draft: no
 
 ## 1. Một số việc cần làm
 
-- Mua bút, notebook, tai nghe, dùng cho việc học tập, ghi chép.
-- Lựa chọn một môn thể thao (nhảy dây, chạy bộ) để rèn thể lực.
-- Học vẽ & nấu ăn nếu có thời gian.
+- Nấu ăn
+- Học Affiliate 
+- Bơi/Workout/Taichi
+
+- Vali
+- Tất & Đồ VS giày
+- Bàn là, bàn chải điện
+- Xịt thơm & dung dịch vs
+- Mua bộ chăn chiếu mùa hè
+- Tẩy trang Coccon & Kem dưỡng, SRM
+- Mua bàn là, giá treo quần áo
 
 ## 2. Học English
+
 ## 3. Học Tools for DA
 
 - Python Programming
@@ -54,9 +63,5 @@ draft: no
 - Finance & Banking
 
 ## 6. Luyện thi chứng chỉ
-
-- [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleDataAnalytics-ROW&utm_content=B2C&campaignid=12566515400&adgroupid=117869292885&device=c&keyword=analytics%20job&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507290840762&hide_mobile_promo&gclid=CjwKCAiA5sieBhBnEiwAR9oh2jVx0Kels-Ln8v3uPSmzRZ6Yu5gvMu4lvpwspd4Sl2tYdOLCUYLDzBoCejYQAvD_BwE) 
-- [Professional Data Analyst Certification](https://www.datacamp.com/certification/data-analyst)
-- [Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/certifications/power-bi-data-analyst-associate/)
 
 ## 7. Xây dựng Portfolio
