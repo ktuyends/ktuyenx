@@ -39,6 +39,6 @@ draft: no
 
 <p style="text-align:justify">Mình nhớ có ai đó từng nói rằng: Nếu bạn không tàn nhẫn với chính mình thì cuộc đời sẽ tàn nhẫn với bạn! Nhìn lại những năm này, có lẽ mình chưa bao giờ thực sự nghiêm túc với bản thân. Rất nhiều chuyện quan trọng mình đều không làm, hoặc làm được một thời gian lại dang dở. Rồi lại lãng phí thời gian vào những chuyện vô bổ.</p>
 
-<p style="text-align:justify">Hà Nội đã vào thu, nằm tựa mình vào ghế, ngắm nhìn bầu trời rộng lớn xa xăm, ta mơ về bản thân của những năm tháng cũ kĩ. Còn bốn tháng nữa là bước sang 2014 rồi, nhanh thật đấy. Thời gian trôi nhanh như chó chạy ngoài đồng.</p> 
+<p style="text-align:justify">Hà Nội đã vào thu, nằm tựa mình vào ghế, ngắm nhìn bầu trời rộng lớn xa xăm, ta mơ về bản thân của những năm tháng cũ kĩ. Còn bốn tháng nữa là bước sang 2024 rồi, nhanh thật đấy. Thời gian trôi nhanh như chó chạy ngoài đồng.</p> 
 
 <p style="text-align:justify">Bốn tháng, không quá dài cũng không quá ngắn. Những ngày còn lại, bản thân cũng không mong đợi gì nhiều, chỉ hy vọng một vài kế hoạch sẽ có những bước đi đầu tiên. Hy vọng, sẽ gặp được bản thân ở một phiên bản tốt hơn. Hy vọng, chúng ta có thể khuyến khích nhau nhìn thế giới rộng lớn hơn thay vì mắc kẹt trong những vấn đề tầm thường...</p> 
