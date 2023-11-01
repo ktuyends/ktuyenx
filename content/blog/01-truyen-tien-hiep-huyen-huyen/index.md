@@ -54,6 +54,6 @@ featured: yes
 32. Vừa Thành Tiên Thần, Con Cháu Cầu Ta Xuất Sơn _(650)_
 33. Ta Chỉ Muốn An Tĩnh Làm Cẩu Đạo Bên Trong Người _(1500)_
 34. Xích Tâm Tuần Thiên _(2100)_
-35. Đạp Tinh _(2850)_
+35. Đạp Tinh _(3325)_
 
 ---

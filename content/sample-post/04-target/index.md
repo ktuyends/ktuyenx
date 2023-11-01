@@ -9,7 +9,7 @@ lastUpdated: "2022-04-01"
 alias:
 featured: yes
 layout: single
-draft: no
+draft: yes
 ---
 
 ![](./featured.JPG)
@@ -20,13 +20,14 @@ draft: no
 - Học Affiliate 
 - Bơi/Workout/Taichi
 
-- Vali
+- Vali, mũ bảo hiểm
 - Tất & Đồ VS giày
+- Mua giá treo quần áo
 - Bàn là, bàn chải điện
 - Xịt thơm & dung dịch vs
 - Mua bộ chăn chiếu mùa hè
 - Tẩy trang Coccon & Kem dưỡng, SRM
-- Mua bàn là, giá treo quần áo
+- Đồng hồ, Vest, Giày tây
 
 ## 2. Học English
 

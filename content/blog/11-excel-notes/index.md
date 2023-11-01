@@ -11,6 +11,7 @@ categories:
   - Blog
   - Excel
 featured: yes
+draft: true
 ---
 
 Excel, luôn là một trong những kỹ năng cần có của dân văn phòng. Và với mỗi vị trí, Excel lại được sử dụng với những mục đích khác nhau. Với mình, Excel được sử dụng chủ yếu để xử lý, phân tích dữ liệu và làm báo cáo. 
@@ -63,4 +64,6 @@ Gần đây Microsoft đã cho ra mắt một số hàm được sử dụng tr�
 **Hàm `SORT BY`**
 
 **Hàm `UNIQUE`**
+
+
 

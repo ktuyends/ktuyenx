@@ -23,3 +23,24 @@ Hà Nội, 30/08/2023. Vậy là gần 2/3 của năm 2023 đã trôi qua, và m
 
 Hôm nay mình học Python, đây sẽ là trạm dừng chân đầu tiên của mình trên con đường đến với Data Analyst. Let's Goooo!
 
+Để bắt đầu với Python, đầu tiên mình sẽ đi cài đặt Python từ trang [Python.org](https://www.python.org/downloads/). Sau khi cài đặt xong Python, mình cũng cài đặt thêm một trình soạn thảo để giúp cho việc viết code thuận tiện hơn. Mình thường sử dụng VS Code - [Visual Studio Code](https://code.visualstudio.com/Download). 
+
+## 1. Biến
+
+## 2. Kiểu dữ liệu
+
+## 3. Lists
+
+## 4. Cấu trúc điều khiển
+
+## 5. Dictionaries
+
+## 6. Vòng lặp
+
+## 7. Functions
+
+## 8. Classes
+
+## 9. Files 
+
+## 10. Exceptions
