@@ -9,7 +9,7 @@ image_left: false
 text_align_left: true
 show_social_links: true
 show_action_link: true
-action_link: /about
+action_link: /diary
 action_label: "More about me &rarr;"
 action_type: text # text, button
 type: home
