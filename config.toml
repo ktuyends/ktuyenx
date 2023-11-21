@@ -176,26 +176,26 @@ relativeURLs = true
 
 [menu]
   # Configure header 
-  [[menu.header]]
-    name = "About"
-    title = "About Me"
-    url = "/about/"
-    weight = 1
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 2
-  [[menu.header]]
-    name = "Notes"
-    title = "Learning by Writing"
-    url = "/notes/"
-    weight = 3    
- [[menu.header]]
-   name = "Projects"
-   title = "Project Portfolio"
-   url = "/project/"
-   weight = 4
+#  [[menu.header]]
+#    name = "About"
+#    title = "About Me"
+#    url = "/about/"
+#    weight = 1
+#  [[menu.header]]
+#    name = "Blog"
+#    title = "Blog"
+#    url = "/blog/"
+#    weight = 2
+#  [[menu.header]]
+#    name = "Notes"
+#    title = "Learning by Writing"
+#    url = "/notes/"
+#    weight = 3    
+# [[menu.header]]
+#   name = "Projects"
+#   title = "Project Portfolio"
+#   url = "/project/"
+#   weight = 4
  [[menu.header]]
     name = "My Diary"
     title = "My Diary"
